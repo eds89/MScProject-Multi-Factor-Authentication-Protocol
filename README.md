@@ -5,6 +5,8 @@ Source code extracted from binaries. Code provided for demonstrative/informative
 
 **For more information, see:**
 
+- Paper: *E. dos Santos*, J. E. Martina and R. F. Custódio, "[Towards a Formal Verification of a Multi-factor Authentication Protocol Using Automated Theorem Provers](https://ieeexplore.ieee.org/abstract/document/6295962)," 2012 IEEE 11th International Conference on Trust, Security and Privacy in Computing and Communications, 2012, pp. 84-91, doi: 10.1109/TrustCom.2012.278.
+
 - Paper: *E. dos Santos*, J. E. Martina and R. F. Custódio, "[Towards a Formal Verification of a Multi-factor Authentication Protocol Using Automated Theorem Provers](docs/paper_Towards_a_Formal_Verification_of_a_Multi.pdf)," 2012 IEEE 11th International Conference on Trust, Security and Privacy in Computing and Communications, 2012, pp. 84-91, doi: 10.1109/TrustCom.2012.278.
 
 - Paper: *E. dos Santos*, J. E. Martina and R. F. Custódio, "[Towards a Formal Verification of a Multi-factor Authentication Protocol Using Automated Theorem Provers](docs/paper_Towards_a_Formal_Verification_of_a_Multi.pdf)," 2012 IEEE 11th International Conference on Trust, Security and Privacy in Computing and Communications, 2012, pp. 84-91, doi: 10.1109/TrustCom.2012.278.
