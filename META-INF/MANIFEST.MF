@@ -1,0 +1,327 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Class-Path: lib/ftrSDKHelper.jar lib/mysql-connector-java-5.1.16.jar l
+ ib/bcprov-jdk16-143.jar lib/log4j-1.2.16.jar
+Created-By: 19.1-b02 (Sun Microsystems Inc.)
+
+Name: FTRAPI.dll
+SHA1-Digest: 9H9OaA34b9zmQQ5FDK4bmrOMG4E=
+
+Name: softplan/prototype/common/BaseEntity$1.class
+SHA1-Digest: nehy+0qNg2eAwRYKbmpe+d+aYBU=
+
+Name: softplan/prototype/common/Message$Type.class
+SHA1-Digest: hf9iEWT18fzowxE6BBoVkAUNxI4=
+
+Name: labsec/auth/smartcard/SmartcardAccess$StringComparator.class
+SHA1-Digest: ozK2DDrQDS2EyKch5AXg8tUmJ/8=
+
+Name: labsec/auth/smartcard/Utils$1.class
+SHA1-Digest: TcwNHKw58MpEXvyYglGl1pj7lio=
+
+Name: softplan/prototype/server/Server$2.class
+SHA1-Digest: /pdoAg1JrnFHXn/vTBgqxXUEJe4=
+
+Name: softplan/prototype/admin/ManagementInterface$4.class
+SHA1-Digest: rl4teCoi7EUCboUzU9kB5ynBQ+k=
+
+Name: labsec/auth/biometric/Futronic/FutronicEnrollmentListener.class
+SHA1-Digest: 4FRAn6i+i3pYq6yy4Di/R/Ie++k=
+
+Name: softplan/prototype/common/EncryptedMessage.class
+SHA1-Digest: LyHg1Qi8SkxJb7HWnwApc+cJKmc=
+
+Name: labsec/auth/biometric/event/VerificationEvent.class
+SHA1-Digest: pkxsOm5ap+IIwYy2nZfj0uegZ2A=
+
+Name: labsec/auth/biometric/Futronic/FutronicVerificationListener.clas
+ s
+SHA1-Digest: a+6/oViSwX2EGN8t62s6hGG0Okg=
+
+Name: softplan/prototype/server/Server$1.class
+SHA1-Digest: s32H78o2xIh786oJviCyN+yGYOI=
+
+Name: labsec/auth/smartcard/SmartcardException.class
+SHA1-Digest: USSXGFKIeY45Pn5AXsJZrgWT6h0=
+
+Name: labsec/auth/biometric/UserRecord.class
+SHA1-Digest: AIoFtX8xCIwOG6Mz81xS0CgAcHc=
+
+Name: softplan/prototype/admin/ManagementInterface$2.class
+SHA1-Digest: xkmA6WKDgd7Iblb09SrxjVdYgLk=
+
+Name: ftrScanAPI.dll
+SHA1-Digest: c46D0427EUZRUQkDwi99z67uB64=
+
+Name: labsec/auth/biometric/event/IdentificationEvent.class
+SHA1-Digest: 8zpP4kBOP5+UmK8sRe4miwb+waU=
+
+Name: softplan/prototype/client/ClientApplet$2.class
+SHA1-Digest: fwRr8XUWYbbLqguomiq+MYTsVFE=
+
+Name: softplan/prototype/common/ExceptionHandler.class
+SHA1-Digest: xqfJj3955WDu4miaixiOuUSD9Vg=
+
+Name: labsec/auth/biometric/Futronic/FutronicUserRecord.class
+SHA1-Digest: xzUsFt8bw9cH7ToYsI9aDkzTMQ4=
+
+Name: softplan/prototype/database/DatabaseConstants.class
+SHA1-Digest: G6Jop74dQztmqesIRkJ6Gd4Ht8Y=
+
+Name: labsec/auth/smartcard/SmartcardNotFoundException.class
+SHA1-Digest: TQGkzomn0bp+TYsQn8vevpwFs0s=
+
+Name: softplan/prototype/common/Message.class
+SHA1-Digest: +MaJXJ46JYj0B1IGaendEXJFZZY=
+
+Name: softplan/prototype/admin/ManagementInterface$3.class
+SHA1-Digest: YUL24ZSJdTpn/2a2PLfnaUjM+18=
+
+Name: softplan/prototype/common/ProtocolException.class
+SHA1-Digest: HR5ZxXtVLSX7OTXzvUB5vMlsblc=
+
+Name: softplan/prototype/common/BaseEntity.class
+SHA1-Digest: xaNoINKE1AxlXGudw8bkZ0VItvE=
+
+Name: softplan/prototype/client/ClientApplet$1.class
+SHA1-Digest: NwiKkhZUPBSARMg8j5TB4vcpaGg=
+
+Name: softplan/prototype/client/ClientEntity$2.class
+SHA1-Digest: JPwEgBFDrM3S2x+RfuzRbF4eNGs=
+
+Name: test/Test.class
+SHA1-Digest: QY2eH9PnOclgfI1KrIk1glNC2GI=
+
+Name: labsec/auth/smartcard/SmartcardAccess.class
+SHA1-Digest: wyc/q98G4+bfBvpd6xhR1RXUyYI=
+
+Name: softplan/prototype/common/GUIUtils.class
+SHA1-Digest: pidIZg7rHMxgpKgKHxmjTasrJ6c=
+
+Name: softplan/prototype/common/BaseEntity$NaiveTrustManager.class
+SHA1-Digest: QYhTc/CXnebPfLzw3w9J+IY+84E=
+
+Name: labsec/auth/biometric/event/EnrollmentEvent.class
+SHA1-Digest: lhl8k/792Jtzy1caZEeW3xTZIWw=
+
+Name: labsec/auth/biometric/Futronic/FutronicIdentificationListener.cl
+ ass
+SHA1-Digest: C+MLhKtfcN8Gy2ZGhqyxTtP6YlU=
+
+Name: labsec/auth/smartcard/Utils.class
+SHA1-Digest: AQ1friHcotSmJvwoLM0qZL1xnGs=
+
+Name: softplan/prototype/common/ClientData.class
+SHA1-Digest: cd/PHIo3WcnajTW2U3FiLQmcvlg=
+
+Name: labsec/auth/biometric/Futronic/FutronicBaseListener.class
+SHA1-Digest: c7XTmAwKq92akMt8ks2lw4ZCLkA=
+
+Name: labsec/auth/biometric/event/VerificationListener.class
+SHA1-Digest: 47WX3gprq5LhV2OSBd4gLk1+oVM=
+
+Name: labsec/auth/biometric/event/EnrollmentListener.class
+SHA1-Digest: qbaROr3qzey3X1m+InmFv/JBH0c=
+
+Name: softplan/prototype/admin/ManagementInterface$6.class
+SHA1-Digest: czqD2Whl7B1VJwxEdzAwYvg0v1M=
+
+Name: labsec/auth/biometric/BiometricInitializationError.class
+SHA1-Digest: X7qSpVW/lkLJac7eEGexojgI6d0=
+
+Name: softplan/prototype/common/NoncesDoNotMatchException.class
+SHA1-Digest: Ww6yD7CzGe2Apj5cr1esr0x67fg=
+
+Name: softplan/prototype/common/EntityListener.class
+SHA1-Digest: EKA5GV/saSbMmkkYZo5EGXhwcIc=
+
+Name: labsec/auth/biometric/DefaultUserRecord.class
+SHA1-Digest: NbtkQhoJRKFMp7ftP9zOnvevRnM=
+
+Name: softplan/prototype/server/Server$CacheEntry.class
+SHA1-Digest: Wy1ZCYq6bTivoPPerZP1qRVcdwg=
+
+Name: softplan/prototype/server/ServerMain.class
+SHA1-Digest: pBJ8YNvPAZOxNpa5MVef10eimYY=
+
+Name: softplan/prototype/client/ClientEntity$1.class
+SHA1-Digest: VB4pBEHLjwDOvxhp29jayjlgUa8=
+
+Name: labsec/auth/biometric/event/BaseListener.class
+SHA1-Digest: tVM5vKH1F5gUAPDzcmqUCo3RSJ4=
+
+Name: labsec/auth/smartcard/SmartcardSignatureException.class
+SHA1-Digest: alwWo3M53wBDh1KQm+jyTuaGHDA=
+
+Name: softplan/prototype/common/Destination.class
+SHA1-Digest: ykoSt/c+ubcqwAPikYpOuO3wXSw=
+
+Name: labsec/auth/biometric/event/EnrollmentAdapter.class
+SHA1-Digest: g8fYHU0q1/rAdQVAxhHO0nxuUmk=
+
+Name: labsec/auth/biometric/Futronic/NewFutronicIdentification.class
+SHA1-Digest: 5Qo1OqsqNVEirO6g2D2MTGzohdk=
+
+Name: labsec/auth/biometric/Futronic/NewFutronicEnrollment.class
+SHA1-Digest: EJtk/C/H1WpwsA6LTyULiQ9Es48=
+
+Name: softplan/prototype/common/Configuration.class
+SHA1-Digest: S5IGgIRvx31YDIIpfy0T3rgBOiM=
+
+Name: java.policy.applet
+SHA1-Digest: srqBCUFmtz6D5aVXTJhHgtHOueM=
+
+Name: labsec/auth/biometric/Futronic/FutronicReader.class
+SHA1-Digest: c0B9BQc30l/K17/59PfHDk7IJa4=
+
+Name: labsec/auth/biometric/event/IdentificationListener.class
+SHA1-Digest: ZPaBg5itk1xJFt+EQl3sCT9suc8=
+
+Name: softplan/prototype/admin/AdminEntity.class
+SHA1-Digest: dbmeKJApSskQ9hQ3YKvv+fyahEQ=
+
+Name: softplan/prototype/common/ProtocolServerSocket.class
+SHA1-Digest: gy5Jjuta8jKT3p4Lr6yOWCtqbsY=
+
+Name: softplan/prototype/admin/ManagementInterface$1.class
+SHA1-Digest: Nwe8tgkVHx7dwo3O+BtRpdJYiaI=
+
+Name: softplan/prototype/admin/ManagementInterface$5.class
+SHA1-Digest: h3+cedbDZIfl3mTE6bgnoXAySac=
+
+Name: ftrJSDK.dll
+SHA1-Digest: xb9PjA8ZWccTFgim6Gz8gHhtOOI=
+
+Name: labsec/auth/biometric/event/IdentificationAdapter.class
+SHA1-Digest: Ar1xMrJ0anhMrdASZT6nS6Ljj28=
+
+Name: softplan/prototype/client/ClientApplet$3.class
+SHA1-Digest: flpK/woGqVxWMb+3yO4G5YXHroA=
+
+Name: softplan/prototype/client/ClientApplet$4.class
+SHA1-Digest: qBEkobX8vA9tcLKrXLXCM4yR8Zk=
+
+Name: labsec/auth/smartcard/SmartcardCipherException.class
+SHA1-Digest: 9zSqQusE6jbdyk+tK80ja52lpP4=
+
+Name: labsec/auth/biometric/FingerprintBase.class
+SHA1-Digest: X9w4z3z7KBq2e38byAFFTCwHtjY=
+
+Name: softplan/prototype/common/SignatureNotVerifiedException.class
+SHA1-Digest: J4afUlMteTf2DEkwGH/Du94O0uM=
+
+Name: softplan/prototype/server/ServerMain$1.class
+SHA1-Digest: rOS7V3qFq0sc7AcCzh9vp8Y+cg8=
+
+Name: softplan.prototype.client.ClientApplet1305203854729.html
+SHA1-Digest: Y17Gka1AHT4xdiJA4XwgFcbhjq0=
+
+Name: labsec/auth/biometric/AbstractFingerprintReader.class
+SHA1-Digest: Gl9gXMuLAFL9K+z7Vl7X5UcDkEQ=
+
+Name: labsec/auth/biometric/event/BaseEvent.class
+SHA1-Digest: qiu0RNAmsBNkIOAKKk+oQiRMkAw=
+
+Name: labsec/auth/biometric/FingerprintReader.class
+SHA1-Digest: Vnf7aWDXJDPxdRMjhwmL9bo248c=
+
+Name: labsec/auth/biometric/BiometricVerificationException.class
+SHA1-Digest: H1a5MT+iF6+5aF2SDmxMYxIDjQ4=
+
+Name: softplan/prototype/common/Constants.class
+SHA1-Digest: G0tJ3ARWPO9y5gyRL5jp17/exco=
+
+Name: labsec/auth/smartcard/SmartcardDigestException.class
+SHA1-Digest: vuzQZV0VB7dUKUGdYfjE6iWMg3U=
+
+Name: softplan/prototype/admin/AdminEntity$1.class
+SHA1-Digest: +O06TMi/iv82rwLBjz+1tlzWF3o=
+
+Name: softplan/prototype/server/Server.class
+SHA1-Digest: +uGa8pEFy3NnUVPoaqAV5/vdGCQ=
+
+Name: labsec/auth/biometric/BiometricEnrollmentException.class
+SHA1-Digest: tkKNmFORyEjizG2GAs2kQS2+1SQ=
+
+Name: softplan/prototype/admin/AdminMain.class
+SHA1-Digest: x5+N//vuRyUlK59SxvRQtQygo/Y=
+
+Name: labsec/auth/biometric/Futronic/NewFutronicVerification.class
+SHA1-Digest: WRyTjwNfxixOMPnVoDZ32sgz390=
+
+Name: labsec/auth/smartcard/SmartcardConstants.class
+SHA1-Digest: CTrBEYQzdtpm+0TuPN/lDA6oTbg=
+
+Name: softplan/prototype/admin/ManagementInterface.class
+SHA1-Digest: Mc/XHnSJ0tUxkj6LH3YEPUcAZeQ=
+
+Name: labsec/auth/smartcard/SmartcardKeyException.class
+SHA1-Digest: jevbr8OfvW9RtmielI36vB1pAeg=
+
+Name: labsec/auth/biometric/FingerprintIdentification.class
+SHA1-Digest: ba2TpaJgSzq4vQ0yElw3qEOqVoY=
+
+Name: softplan/prototype/client/ClientApplet.class
+SHA1-Digest: 8UgDTdXPGVFN2jKDgZImtcBtw8o=
+
+Name: labsec/auth/biometric/event/BaseAdapter.class
+SHA1-Digest: HTI0zZSgY7pGNhzjj8t2LOc/qfU=
+
+Name: softplan/prototype/client/ClientEntity.class
+SHA1-Digest: Z8gLwkqRj5ljN8nU/mdKBrKdKFY=
+
+Name: labsec/auth/smartcard/SmartcardCertificateException.class
+SHA1-Digest: b093u3+pjAXclJvSeITevhJ9wng=
+
+Name: softplan/prototype/database/Database.class
+SHA1-Digest: IGDW66EA4fU8Hjzah6KGzIAN0Eo=
+
+Name: labsec/auth/smartcard/SmartcardInitializationError.class
+SHA1-Digest: EIkpXJQXGONOHoq37zk9kEkY8Xg=
+
+Name: labsec/auth/biometric/BiometricException.class
+SHA1-Digest: iPuOTirQIvoSOp3Qx6LQIzH4LI0=
+
+Name: softplan/prototype/common/PINRequestHandler.class
+SHA1-Digest: iRkuYb1stBHdykAucdLobKWM9os=
+
+Name: softplan/prototype/common/Signature.class
+SHA1-Digest: C7ck4wK3sqgo7rgxRNDuO+l+u+A=
+
+Name: labsec/auth/biometric/FingerprintEnrollment.class
+SHA1-Digest: TN7GfIG/17jpER0pNOAKdu/ZQVg=
+
+Name: labsec/auth/biometric/event/VerificationAdapter.class
+SHA1-Digest: uD5y0HdMH+P+ecLFCTXsNkeM33w=
+
+Name: labsec/auth/biometric/FingerprintManagement.class
+SHA1-Digest: vxJ9gonpUQ+/gJEtMspa59nsT1I=
+
+Name: softplan/prototype/common/MessageEvent.class
+SHA1-Digest: VxKYL/GbMrzadbWUkpLExEWq0Xg=
+
+Name: aetpkss1.dll
+SHA1-Digest: XRdWf93DAsWbeOESvt5Ei1pGEm8=
+
+Name: labsec/auth/biometric/BiometricIdentificationException.class
+SHA1-Digest: omIflTyHNdLTYbWK8RQFIx3F1qc=
+
+Name: labsec/auth/smartcard/SmartcardRandomNumberException.class
+SHA1-Digest: mOEWSxwk4S16wC3kL0V07oJiD5w=
+
+Name: labsec/auth/biometric/AbstractFingerprintReader$1LibraryLoader.c
+ lass
+SHA1-Digest: nuv5D7IJM4zRkyoS+q4m/g8oPGA=
+
+Name: labsec/auth/biometric/event/ProgressEvent.class
+SHA1-Digest: W8It7G0pd0v1LXLCbej9zTnARTo=
+
+Name: test/MapTest.class
+SHA1-Digest: qsP8LJoiRosssdQolxZMxDT6zEI=
+
+Name: log-client.txt
+SHA1-Digest: 7dnjo8UfOxf/8dmrhVWtYAjn4/8=
+
+Name: labsec/auth/biometric/FingerprintVerification.class
+SHA1-Digest: YDoXYffnCwNNV3yD2GYhKI3SFeU=
+

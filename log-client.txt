@@ -1,0 +1,1139 @@
+10:01:33,158 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+10:16:20,334 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+10:16:20,334 DEBUG [Thread-3] Configuration - final java.library.path = C:\Dev\java_libs\Futronic;null
+10:16:20,397 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+10:16:20,444 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:\Windows\System32\aetpkss1.dll
+10:16:21,021 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+10:16:21,537 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+10:16:21,537 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+10:16:21,583 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+10:16:21,615 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 5
+10:16:21,615 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+10:16:21,615 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+10:16:21,615 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+10:16:21,615 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15667
+10:16:21,786 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+10:16:26,716 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - stop()
+10:16:26,716 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - destroy()
+10:16:26,716 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] BaseEntity - Client::'s SSLSocket is connected? false
+10:16:26,716 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] FutronicReader - uninitialize()
+10:22:29,485 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+10:22:29,485 DEBUG [Thread-3] Configuration - final java.library.path = C:\Dev\java_libs\Futronic;null
+10:22:29,532 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+10:22:29,579 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:\Windows\System32\aetpkss1.dll
+10:22:31,295 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+10:22:31,327 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+10:22:31,327 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+10:22:31,343 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+10:22:31,374 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 5
+10:22:31,374 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+10:22:31,374 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+10:22:31,374 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+10:22:31,374 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15667
+10:22:31,405 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+10:22:39,611 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on connect button
+10:22:39,612 DEBUG [Client::] BaseEntity - Beginning Client:: Entity thread.
+10:22:39,627 DEBUG [Client::] BaseEntity - Creating SSL Socket Factory for first-time use only
+10:22:39,768 DEBUG [Client::] BaseEntity - SSL Socket Factory created successfully
+10:22:39,768 INFO [Client::] BaseEntity - Client:: trying to connect to server on host=localhost and port=15668
+10:22:40,189 INFO [Client::] BaseEntity - Client:: connected to server on host=localhost and port=15668
+10:22:40,237 TRACE [Client::] BaseEntity - in=com.sun.net.ssl.internal.ssl.AppInputStream@1617189
+10:22:40,237 TRACE [Client::] BaseEntity - out=com.sun.net.ssl.internal.ssl.AppOutputStream@64f6cd
+10:22:40,299 DEBUG [Client::] BaseEntity - Client:: is handling server requests
+10:22:40,299 TRACE [Client::] BaseEntity - total bytes read: 1167
+10:22:40,315 DEBUG [Client::] BaseEntity - Client:: received an object: Message [type=REGISTER, data=byte[length=128, [-74, -17, -12, 69, 84, ...]],byte[length=672, [-57, 86, -22, -7, 7, ...]],Client::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+10:22:40,315 TRACE [Client::] ClientApplet - messageReceived(): TestCard:jonathangkohler@gmail.com's UFSC ID
+10:22:40,315 DEBUG [Client::] ClientEntity - Begin processing of register message: Message [type=REGISTER, data=byte[length=128, [-74, -17, -12, 69, 84, ...]],byte[length=672, [-57, 86, -22, -7, 7, ...]],Client::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+10:22:40,315 TRACE [Client::] ClientEntity - clientAliasReceived=TestCard:jonathangkohler@gmail.com's UFSC ID
+10:22:40,315 DEBUG [Client::] ClientEntity - End processing of register message: Message [type=REGISTER, data=byte[length=128, [-74, -17, -12, 69, 84, ...]],byte[length=672, [-57, 86, -22, -7, 7, ...]],]
+10:27:33,876 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+10:27:33,923 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+10:27:33,954 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:\Windows\System32\aetpkss1.dll
+10:27:35,655 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+10:27:35,703 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+10:27:35,703 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+10:27:35,703 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+10:27:35,734 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 5
+10:27:35,734 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+10:27:35,734 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+10:27:35,734 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+10:27:35,734 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15667
+10:27:35,765 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+10:33:51,233 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+10:33:51,280 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+10:33:51,326 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:\Windows\System32\aetpkss1.dll
+10:33:51,950 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+10:33:51,983 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+10:33:51,983 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+10:33:51,983 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+10:33:52,014 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 5
+10:33:52,014 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+10:33:52,014 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+10:33:52,014 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+10:33:52,014 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15667
+10:33:52,045 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+10:39:19,116 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+10:39:19,131 DEBUG [Thread-3] Configuration - final java.library.path = C:\Dev\java_libs\Futronic;C:/Dev/java_libs/Futronic
+10:39:19,178 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+10:39:19,209 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:/Windows/System32/aetpkss1.dll
+10:39:19,786 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+10:39:19,819 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+10:39:19,819 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+10:39:19,819 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+10:39:19,834 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 5
+10:39:19,834 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+10:39:19,834 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+10:39:19,834 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+10:39:19,834 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15668
+10:39:19,865 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+10:39:32,955 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+10:39:32,955 DEBUG [Thread-3] Configuration - final java.library.path = C:\Dev\java_libs\Futronic;C:/Dev/java_libs/Futronic
+10:39:33,017 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+10:39:33,048 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:/Windows/System32/aetpkss1.dll
+10:39:33,641 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+10:39:33,689 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+10:39:33,689 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+10:39:33,689 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+10:39:33,705 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 5
+10:39:33,705 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+10:39:33,705 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+10:39:33,705 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+10:39:33,705 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15668
+10:39:33,736 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+10:40:34,862 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+10:40:34,862 DEBUG [Thread-3] Configuration - final java.library.path = C:\Dev\java_libs\Futronic;C:/Dev/java_libs/Futronic
+10:40:34,924 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+10:40:34,955 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:/Windows/System32/aetpkss1.dll
+10:40:36,656 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+10:40:36,688 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+10:40:36,688 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+10:40:36,688 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+10:40:36,703 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 5
+10:40:36,703 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+10:40:36,703 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+10:40:36,703 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+10:40:36,703 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15668
+10:40:36,735 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+10:42:59,849 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - stop()
+10:42:59,849 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - destroy()
+10:42:59,849 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] BaseEntity - Client::'s SSLSocket is connected? false
+10:42:59,849 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] FutronicReader - uninitialize()
+10:43:11,021 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+10:43:11,083 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+10:43:11,130 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:\Windows\System32\aetpkss1.dll
+10:43:11,723 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+10:43:11,770 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+10:43:11,770 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+10:43:11,770 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+10:43:11,786 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 5
+10:43:11,786 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+10:43:11,786 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+10:43:11,786 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+10:43:11,786 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15668
+10:43:11,833 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+10:43:41,239 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on connect button
+10:43:41,240 DEBUG [Client::] BaseEntity - Beginning Client:: Entity thread.
+10:43:41,240 DEBUG [Client::] BaseEntity - Creating SSL Socket Factory for first-time use only
+10:43:41,411 DEBUG [Client::] BaseEntity - SSL Socket Factory created successfully
+10:43:41,411 INFO [Client::] BaseEntity - Client:: trying to connect to server on host=localhost and port=15668
+10:43:41,864 INFO [Client::] BaseEntity - Client:: connected to server on host=localhost and port=15668
+10:43:41,943 TRACE [Client::] BaseEntity - in=com.sun.net.ssl.internal.ssl.AppInputStream@ef5502
+10:43:41,943 TRACE [Client::] BaseEntity - out=com.sun.net.ssl.internal.ssl.AppOutputStream@b61fd1
+10:43:42,005 DEBUG [Client::] BaseEntity - Client:: is handling server requests
+10:51:10,139 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+10:51:10,185 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+10:51:10,232 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:\Windows\System32\aetpkss1.dll
+10:51:10,778 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+10:51:10,810 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+10:51:10,810 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+10:51:10,810 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+10:51:10,826 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 5
+10:51:10,826 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+10:51:10,826 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+10:51:10,826 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+10:51:10,826 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15668
+10:51:10,857 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+10:51:17,581 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on connect button
+10:51:17,581 DEBUG [Client::] BaseEntity - Beginning Client:: Entity thread.
+10:51:17,581 DEBUG [Client::] BaseEntity - Creating SSL Socket Factory for first-time use only
+10:51:17,753 DEBUG [Client::] BaseEntity - SSL Socket Factory created successfully
+10:51:17,753 INFO [Client::] BaseEntity - Client:: trying to connect to server on host=localhost and port=15668
+10:51:18,175 INFO [Client::] BaseEntity - Client:: connected to server on host=localhost and port=15668
+10:51:18,207 TRACE [Client::] BaseEntity - in=com.sun.net.ssl.internal.ssl.AppInputStream@e2dae9
+10:51:18,207 TRACE [Client::] BaseEntity - out=com.sun.net.ssl.internal.ssl.AppOutputStream@19209ea
+10:51:18,269 DEBUG [Client::] BaseEntity - Client:: is handling server requests
+10:51:18,269 TRACE [Client::] BaseEntity - total bytes read: 1167
+10:51:18,285 DEBUG [Client::] BaseEntity - Client:: received an object: Message [type=REGISTER, data=byte[length=128, [117, 1, -51, 72, -18, ...]],byte[length=672, [94, -87, 83, 30, -84, ...]],Client::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+10:51:18,285 TRACE [Client::] ClientApplet - messageReceived(): TestCard:jonathangkohler@gmail.com's UFSC ID
+10:51:18,285 DEBUG [Client::] ClientEntity - Begin processing of register message: Message [type=REGISTER, data=byte[length=128, [117, 1, -51, 72, -18, ...]],byte[length=672, [94, -87, 83, 30, -84, ...]],Client::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+10:51:18,285 TRACE [Client::] ClientEntity - clientAliasReceived=TestCard:jonathangkohler@gmail.com's UFSC ID
+10:51:18,285 DEBUG [Client::] ClientEntity - End processing of register message: Message [type=REGISTER, data=byte[length=128, [117, 1, -51, 72, -18, ...]],byte[length=672, [94, -87, 83, 30, -84, ...]],]
+10:51:18,285 TRACE [Client::] BaseEntity - total bytes read: 1160
+10:51:18,285 DEBUG [Client::] BaseEntity - Client:: received an object: Message [type=REGISTER, data=byte[length=128, [91, -86, 52, 91, 30, ...]],byte[length=656, [10, 87, 78, -33, 71, ...]],Client::Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+10:51:18,285 TRACE [Client::] ClientApplet - messageReceived(): Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE
+10:51:18,285 DEBUG [Client::] ClientEntity - Begin processing of register message: Message [type=REGISTER, data=byte[length=128, [91, -86, 52, 91, 30, ...]],byte[length=656, [10, 87, 78, -33, 71, ...]],Client::Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+10:51:18,285 TRACE [Client::] ClientEntity - clientAliasReceived=Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE
+10:51:18,285 DEBUG [Client::] ClientEntity - End processing of register message: Message [type=REGISTER, data=byte[length=128, [91, -86, 52, 91, 30, ...]],byte[length=656, [10, 87, 78, -33, 71, ...]],]
+10:51:18,285 TRACE [Client::] BaseEntity - total bytes read: 1167
+10:51:18,285 DEBUG [Client::] BaseEntity - Client:: received an object: Message [type=REGISTER, data=byte[length=128, [89, -56, -39, -115, -26, ...]],byte[length=672, [-49, -107, 115, -57, -26, ...]],Client::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+10:51:18,285 TRACE [Client::] ClientApplet - messageReceived(): TestCard:jonathangkohler@gmail.com's UFSC ID
+10:51:18,285 DEBUG [Client::] ClientEntity - Begin processing of register message: Message [type=REGISTER, data=byte[length=128, [89, -56, -39, -115, -26, ...]],byte[length=672, [-49, -107, 115, -57, -26, ...]],Client::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+10:51:18,285 TRACE [Client::] ClientEntity - clientAliasReceived=TestCard:jonathangkohler@gmail.com's UFSC ID
+10:51:18,285 DEBUG [Client::] ClientEntity - End processing of register message: Message [type=REGISTER, data=byte[length=128, [89, -56, -39, -115, -26, ...]],byte[length=672, [-49, -107, 115, -57, -26, ...]],]
+10:51:57,987 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on register button
+10:51:57,987 TRACE [AWT-EventQueue-1] ClientEntity - [Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE, TestCard:jonathangkohler@gmail.com's UFSC ID]
+10:53:13,289 DEBUG [Register-Thread] ClientEntity - Beginning register operation. With biometrics? true
+10:53:13,289 TRACE [Register-Thread] ClientEntity - code=SICRANO
+10:53:13,289 TRACE [Register-Thread] ClientEntity - selectedClient=Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE
+10:53:13,289 TRACE [Register-Thread] ClientEntity - withBiometrics=true
+10:53:13,289 TRACE [Register-Thread] FutronicReader - enroll()
+10:53:13,289 DEBUG [Register-Thread] FutronicReader - Starting enrolling user SICRANO
+10:53:13,289 DEBUG [Register-Thread] FutronicReader - Creating enroll object
+10:53:13,696 TRACE [Register-Thread] FutronicReader - before wait() for enroll()
+10:53:14,273 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=1, total=5]
+10:53:26,191 TRACE [Enrollment operation] ClientApplet - updateImage() event
+10:53:26,191 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+10:53:26,317 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=1, total=5]
+10:53:26,894 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=2, total=5]
+10:53:30,903 TRACE [Enrollment operation] ClientApplet - updateImage() event
+10:53:30,903 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+10:53:31,060 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=2, total=5]
+10:53:31,809 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=3, total=5]
+10:53:34,586 TRACE [Enrollment operation] ClientApplet - updateImage() event
+10:53:34,586 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+10:53:34,727 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=3, total=5]
+10:53:35,476 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=4, total=5]
+10:53:37,473 TRACE [Enrollment operation] ClientApplet - updateImage() event
+10:53:37,473 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+10:53:37,646 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=4, total=5]
+10:53:38,582 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=5, total=5]
+10:53:39,987 TRACE [Enrollment operation] ClientApplet - updateImage() event
+10:53:39,987 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+10:53:40,159 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=5, total=5]
+10:53:40,190 DEBUG [Enrollment operation] ClientApplet - Fingerprint enrollment complete. Success? true
+10:53:48,505 TRACE [Register-Thread] FutronicReader - after wait() for enroll
+10:53:48,505 TRACE [Register-Thread] FutronicReader - Finishing enrolling user SICRANO templateLength=2667, quality=6
+10:53:48,505 DEBUG [Register-Thread] FutronicReader - Disposing labsec.auth.biometric.Futronic.NewFutronicEnrollment
+10:53:48,506 TRACE [Register-Thread] ClientEntity - userRecord=FutronicUserRecord [key=SICRANO, template=[2667]]
+10:53:51,689 TRACE [Register-Thread] ClientEntity - innerMessage=Message [type=REGISTER, data=-791822159,ClientData [cpf=666.999.333-45, ],TestCard:jonathangkohler@gmail.com's UFSC ID,]
+10:53:51,689 TRACE [Register-Thread] ClientEntity - nA=-791822159
+10:53:51,689 TRACE [Register-Thread] ClientEntity - cpf=666.999.333-45
+10:53:51,689 TRACE [Register-Thread] ClientEntity - A=TestCard:jonathangkohler@gmail.com's UFSC ID
+10:53:51,704 TRACE [Register-Thread] ClientEntity - new data=ClientData [cpf=666.999.333-45, code=SICRANO, template=[2667]]]
+10:53:52,610 TRACE [Register-Thread] ClientEntity - resultInner=Message [type=REGISTER, data=-791822159,ClientData [cpf=666.999.333-45, code=SICRANO, template=[2667]]],byte[length=128, [69, 106, -34, -72, 93, ...]],]
+10:53:53,718 TRACE [Register-Thread] ClientEntity - resultOuter=Message [type=REGISTER, data=byte[length=128, [-37, -14, 6, -73, 82, ...]],byte[length=3432, [99, -1, 44, -114, 14, ...]],Admin::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+10:53:53,718 DEBUG [Register-Thread] BaseEntity - Client:: is transmitting object over stream: Message [type=REGISTER, data=byte[length=128, [-37, -14, 6, -73, 82, ...]],byte[length=3432, [99, -1, 44, -114, 14, ...]],Admin::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+10:53:53,719 DEBUG [Register-Thread] ClientEntity - End of register operation
+10:59:38,113 ERROR [Client::] BaseEntity - Client:: Comm Exception
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at com.sun.net.ssl.internal.ssl.InputRecord.readFully(InputRecord.java:293)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(InputRecord.java:331)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:798)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:755)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:75)
+	at java.io.InputStream.read(InputStream.java:85)
+	at softplan.prototype.common.BaseEntity.handleServerRequestss(BaseEntity.java:250)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:220)
+	at java.lang.Thread.run(Thread.java:662)
+10:59:38,114 DEBUG [Client::] BaseEntity - Closing connection for Client::
+10:59:38,114 DEBUG [Client::] BaseEntity - Client:: is transmitting object over stream: Bye!
+10:59:38,116 DEBUG [Client::] BaseEntity - Error while closing Client:: socket
+javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.checkEOF(SSLSocketImpl.java:1293)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1305)
+	at com.sun.net.ssl.internal.ssl.AppOutputStream.write(AppOutputStream.java:43)
+	at java.io.OutputStream.write(OutputStream.java:58)
+	at softplan.prototype.common.BaseEntity.writeObject(BaseEntity.java:323)
+	at softplan.prototype.common.BaseEntity.disconnect(BaseEntity.java:196)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:231)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+	at com.sun.net.ssl.internal.ssl.Alerts.getSSLException(Alerts.java:190)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1649)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1612)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1576)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1521)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:86)
+	at java.io.InputStream.read(InputStream.java:85)
+	at softplan.prototype.common.BaseEntity.handleServerRequestss(BaseEntity.java:250)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:220)
+	... 1 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at com.sun.net.ssl.internal.ssl.InputRecord.readFully(InputRecord.java:293)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(InputRecord.java:331)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:798)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:755)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:75)
+	... 4 more
+10:59:38,147 DEBUG [Client::] BaseEntity - End of Client:: Entity thread.
+11:00:01,877 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - stop()
+11:00:01,877 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - destroy()
+11:00:01,877 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] BaseEntity - Client::'s SSLSocket is connected? false
+11:00:01,877 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] FutronicReader - uninitialize()
+11:06:05,776 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+11:06:05,823 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+11:06:05,870 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:\Windows\System32\aetpkss1.dll
+11:06:06,416 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+11:06:06,448 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+11:06:06,448 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+11:06:06,448 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+11:06:06,463 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 5
+11:06:06,463 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+11:06:06,463 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+11:06:06,463 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+11:06:06,463 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15668
+11:06:06,495 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+11:06:08,476 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on connect button
+11:06:08,476 DEBUG [Client::] BaseEntity - Beginning Client:: Entity thread.
+11:06:08,476 DEBUG [Client::] BaseEntity - Creating SSL Socket Factory for first-time use only
+11:06:08,633 DEBUG [Client::] BaseEntity - SSL Socket Factory created successfully
+11:06:08,633 INFO [Client::] BaseEntity - Client:: trying to connect to server on host=localhost and port=15668
+11:06:09,085 INFO [Client::] BaseEntity - Client:: connected to server on host=localhost and port=15668
+11:06:09,149 TRACE [Client::] BaseEntity - in=com.sun.net.ssl.internal.ssl.AppInputStream@1d04653
+11:06:09,149 TRACE [Client::] BaseEntity - out=com.sun.net.ssl.internal.ssl.AppOutputStream@b8f82d
+11:06:09,242 DEBUG [Client::] BaseEntity - Client:: is handling server requests
+11:06:09,242 TRACE [Client::] BaseEntity - total bytes read: 1175
+11:06:09,273 DEBUG [Client::] BaseEntity - Client:: received an object: Message [type=REGISTER, data=byte[length=128, [88, -43, -112, -48, -113, ...]],byte[length=672, [63, -71, -38, 19, 30, ...]],Client::Códigos FULANO DA SILVA TESTEs AC TSE final TESTE,]
+11:06:09,273 TRACE [Client::] ClientApplet - messageReceived(): Códigos FULANO DA SILVA TESTEs AC TSE final TESTE
+11:06:09,273 DEBUG [Client::] ClientEntity - Begin processing of register message: Message [type=REGISTER, data=byte[length=128, [88, -43, -112, -48, -113, ...]],byte[length=672, [63, -71, -38, 19, 30, ...]],Client::Códigos FULANO DA SILVA TESTEs AC TSE final TESTE,]
+11:06:09,273 TRACE [Client::] ClientEntity - clientAliasReceived=Códigos FULANO DA SILVA TESTEs AC TSE final TESTE
+11:06:09,273 DEBUG [Client::] ClientEntity - End processing of register message: Message [type=REGISTER, data=byte[length=128, [88, -43, -112, -48, -113, ...]],byte[length=672, [63, -71, -38, 19, 30, ...]],]
+11:06:09,273 TRACE [Client::] BaseEntity - total bytes read: 1175
+11:06:09,273 DEBUG [Client::] BaseEntity - Client:: received an object: Message [type=REGISTER, data=byte[length=128, [-115, -67, 26, -1, -105, ...]],byte[length=672, [5, -61, -59, -75, 19, ...]],Client::Códigos FULANO DA SILVA TESTEs AC TSE final TESTE,]
+11:06:09,273 TRACE [Client::] ClientApplet - messageReceived(): Códigos FULANO DA SILVA TESTEs AC TSE final TESTE
+11:06:09,273 DEBUG [Client::] ClientEntity - Begin processing of register message: Message [type=REGISTER, data=byte[length=128, [-115, -67, 26, -1, -105, ...]],byte[length=672, [5, -61, -59, -75, 19, ...]],Client::Códigos FULANO DA SILVA TESTEs AC TSE final TESTE,]
+11:06:09,273 TRACE [Client::] ClientEntity - clientAliasReceived=Códigos FULANO DA SILVA TESTEs AC TSE final TESTE
+11:06:09,273 DEBUG [Client::] ClientEntity - End processing of register message: Message [type=REGISTER, data=byte[length=128, [-115, -67, 26, -1, -105, ...]],byte[length=672, [5, -61, -59, -75, 19, ...]],]
+11:06:17,947 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on register button
+11:06:17,947 TRACE [AWT-EventQueue-1] ClientEntity - [Códigos FULANO DA SILVA TESTEs AC TSE final TESTE]
+11:06:33,096 DEBUG [Register-Thread] ClientEntity - Beginning register operation. With biometrics? true
+11:06:33,096 TRACE [Register-Thread] ClientEntity - code=123456
+11:06:33,096 TRACE [Register-Thread] ClientEntity - selectedClient=Códigos FULANO DA SILVA TESTEs AC TSE final TESTE
+11:06:33,096 TRACE [Register-Thread] ClientEntity - withBiometrics=true
+11:06:33,096 TRACE [Register-Thread] FutronicReader - enroll()
+11:06:33,096 DEBUG [Register-Thread] FutronicReader - Starting enrolling user 123456
+11:06:33,096 DEBUG [Register-Thread] FutronicReader - Creating enroll object
+11:06:33,143 TRACE [Register-Thread] FutronicReader - before wait() for enroll()
+11:06:33,752 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=1, total=5]
+11:06:39,196 TRACE [Enrollment operation] ClientApplet - updateImage() event
+11:06:39,196 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+11:06:39,338 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=1, total=5]
+11:06:39,899 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=2, total=5]
+11:06:42,099 TRACE [Enrollment operation] ClientApplet - updateImage() event
+11:06:42,099 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+11:06:42,271 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=2, total=5]
+11:06:43,036 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=3, total=5]
+11:06:44,923 TRACE [Enrollment operation] ClientApplet - updateImage() event
+11:06:44,923 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+11:06:45,096 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=3, total=5]
+11:06:46,032 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=4, total=5]
+11:06:47,624 TRACE [Enrollment operation] ClientApplet - updateImage() event
+11:06:47,640 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+11:06:47,781 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=4, total=5]
+11:06:48,717 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=5, total=5]
+11:06:50,528 TRACE [Enrollment operation] ClientApplet - updateImage() event
+11:06:50,528 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+11:06:50,685 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=5, total=5]
+11:06:50,700 DEBUG [Enrollment operation] ClientApplet - Fingerprint enrollment complete. Success? true
+11:07:00,107 TRACE [Register-Thread] FutronicReader - after wait() for enroll
+11:07:00,107 TRACE [Register-Thread] FutronicReader - Finishing enrolling user 123456 templateLength=2001, quality=10
+11:07:00,107 DEBUG [Register-Thread] FutronicReader - Disposing labsec.auth.biometric.Futronic.NewFutronicEnrollment
+11:07:00,107 TRACE [Register-Thread] ClientEntity - userRecord=FutronicUserRecord [key=123456, template=[2001]]
+11:07:03,260 TRACE [Register-Thread] ClientEntity - innerMessage=Message [type=REGISTER, data=1202667858,ClientData [cpf=123.456.789-10, ],Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+11:07:03,260 TRACE [Register-Thread] ClientEntity - nA=1202667858
+11:07:03,260 TRACE [Register-Thread] ClientEntity - cpf=123.456.789-10
+11:07:03,260 TRACE [Register-Thread] ClientEntity - A=Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE
+11:07:03,260 TRACE [Register-Thread] ClientEntity - new data=ClientData [cpf=123.456.789-10, code=123456, template=[2001]]]
+11:07:04,197 TRACE [Register-Thread] ClientEntity - resultInner=Message [type=REGISTER, data=1202667858,ClientData [cpf=123.456.789-10, code=123456, template=[2001]]],byte[length=128, [32, -92, 12, 77, 113, ...]],]
+11:07:05,477 TRACE [Register-Thread] ClientEntity - resultOuter=Message [type=REGISTER, data=byte[length=128, [-82, 119, -36, -112, 38, ...]],byte[length=2768, [-24, -28, -95, 35, 61, ...]],Admin::Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+11:07:05,477 DEBUG [Register-Thread] BaseEntity - Client:: is transmitting object over stream: Message [type=REGISTER, data=byte[length=128, [-82, 119, -36, -112, 38, ...]],byte[length=2768, [-24, -28, -95, 35, 61, ...]],Admin::Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+11:07:05,477 DEBUG [Register-Thread] ClientEntity - End of register operation
+11:10:19,321 ERROR [Client::] BaseEntity - Client:: Comm Exception
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at com.sun.net.ssl.internal.ssl.InputRecord.readFully(InputRecord.java:293)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(InputRecord.java:331)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:798)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:755)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:75)
+	at java.io.InputStream.read(InputStream.java:85)
+	at softplan.prototype.common.BaseEntity.handleServerRequestss(BaseEntity.java:250)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:220)
+	at java.lang.Thread.run(Thread.java:662)
+11:10:19,331 DEBUG [Client::] BaseEntity - Closing connection for Client::
+11:10:19,331 DEBUG [Client::] BaseEntity - Client:: is transmitting object over stream: Bye!
+11:10:19,331 DEBUG [Client::] BaseEntity - Error while closing Client:: socket
+javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.checkEOF(SSLSocketImpl.java:1293)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1305)
+	at com.sun.net.ssl.internal.ssl.AppOutputStream.write(AppOutputStream.java:43)
+	at java.io.OutputStream.write(OutputStream.java:58)
+	at softplan.prototype.common.BaseEntity.writeObject(BaseEntity.java:323)
+	at softplan.prototype.common.BaseEntity.disconnect(BaseEntity.java:196)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:231)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+	at com.sun.net.ssl.internal.ssl.Alerts.getSSLException(Alerts.java:190)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1649)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1612)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1576)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1521)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:86)
+	at java.io.InputStream.read(InputStream.java:85)
+	at softplan.prototype.common.BaseEntity.handleServerRequestss(BaseEntity.java:250)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:220)
+	... 1 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at com.sun.net.ssl.internal.ssl.InputRecord.readFully(InputRecord.java:293)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(InputRecord.java:331)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:798)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:755)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:75)
+	... 4 more
+11:10:19,333 DEBUG [Client::] BaseEntity - End of Client:: Entity thread.
+11:10:30,696 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - stop()
+11:10:30,696 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - destroy()
+11:10:30,696 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] BaseEntity - Client::'s SSLSocket is connected? false
+11:10:30,696 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] FutronicReader - uninitialize()
+12:21:36,946 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+12:21:37,046 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+12:21:37,114 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:\Windows\System32\aetpkss1.dll
+12:21:38,879 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+12:21:38,935 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+12:21:38,936 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+12:21:38,942 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+12:21:38,971 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 5
+12:21:38,972 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+12:21:38,972 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+12:21:38,973 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+12:21:38,973 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15668
+12:21:39,039 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+12:23:08,444 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on connect button
+12:23:08,458 DEBUG [Client::] BaseEntity - Beginning Client:: Entity thread.
+12:23:08,459 DEBUG [Client::] BaseEntity - Creating SSL Socket Factory for first-time use only
+12:23:08,597 DEBUG [Client::] BaseEntity - SSL Socket Factory created successfully
+12:23:08,597 INFO [Client::] BaseEntity - Client:: trying to connect to server on host=localhost and port=15668
+12:23:09,076 INFO [Client::] BaseEntity - Client:: connected to server on host=localhost and port=15668
+12:23:09,149 TRACE [Client::] BaseEntity - in=com.sun.net.ssl.internal.ssl.AppInputStream@41c977
+12:23:09,149 TRACE [Client::] BaseEntity - out=com.sun.net.ssl.internal.ssl.AppOutputStream@111ae04
+12:23:09,218 DEBUG [Client::] BaseEntity - Client:: is handling server requests
+12:23:09,219 TRACE [Client::] BaseEntity - total bytes read: 1175
+12:23:09,241 DEBUG [Client::] BaseEntity - Client:: received an object: Message [type=REGISTER, data=byte[length=128, [17, -5, 127, 92, 109, ...]],byte[length=672, [8, 110, -107, -97, -96, ...]],Client::Códigos FULANO DA SILVA TESTEs AC TSE final TESTE,]
+12:23:09,242 TRACE [Client::] ClientApplet - messageReceived(): Códigos FULANO DA SILVA TESTEs AC TSE final TESTE
+12:23:09,243 DEBUG [Client::] ClientEntity - Begin processing of register message: Message [type=REGISTER, data=byte[length=128, [17, -5, 127, 92, 109, ...]],byte[length=672, [8, 110, -107, -97, -96, ...]],Client::Códigos FULANO DA SILVA TESTEs AC TSE final TESTE,]
+12:23:09,243 TRACE [Client::] ClientEntity - clientAliasReceived=Códigos FULANO DA SILVA TESTEs AC TSE final TESTE
+12:23:09,243 DEBUG [Client::] ClientEntity - End processing of register message: Message [type=REGISTER, data=byte[length=128, [17, -5, 127, 92, 109, ...]],byte[length=672, [8, 110, -107, -97, -96, ...]],]
+12:23:21,233 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on register button
+12:23:21,233 TRACE [AWT-EventQueue-1] ClientEntity - [Códigos FULANO DA SILVA TESTEs AC TSE final TESTE]
+12:23:37,086 DEBUG [Register-Thread] ClientEntity - Beginning register operation. With biometrics? true
+12:23:37,087 TRACE [Register-Thread] ClientEntity - code=teste
+12:23:37,087 TRACE [Register-Thread] ClientEntity - selectedClient=Códigos FULANO DA SILVA TESTEs AC TSE final TESTE
+12:23:37,088 TRACE [Register-Thread] ClientEntity - withBiometrics=true
+12:23:37,088 TRACE [Register-Thread] FutronicReader - enroll()
+12:23:37,094 DEBUG [Register-Thread] FutronicReader - Starting enrolling user teste
+12:23:37,095 DEBUG [Register-Thread] FutronicReader - Creating enroll object
+12:23:37,165 TRACE [Register-Thread] FutronicReader - before wait() for enroll()
+12:23:37,735 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=1, total=5]
+12:23:47,420 TRACE [Enrollment operation] ClientApplet - updateImage() event
+12:23:47,422 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+12:23:47,552 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=1, total=5]
+12:23:47,932 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=2, total=5]
+12:23:50,347 TRACE [Enrollment operation] ClientApplet - updateImage() event
+12:23:50,348 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+12:23:50,516 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=2, total=5]
+12:23:51,280 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=3, total=5]
+12:23:53,083 TRACE [Enrollment operation] ClientApplet - updateImage() event
+12:23:53,084 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+12:23:53,250 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=3, total=5]
+12:23:53,812 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=4, total=5]
+12:23:55,916 TRACE [Enrollment operation] ClientApplet - updateImage() event
+12:23:55,917 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+12:23:56,055 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=4, total=5]
+12:23:56,623 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=5, total=5]
+12:23:58,234 TRACE [Enrollment operation] ClientApplet - updateImage() event
+12:23:58,235 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+12:23:58,409 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=5, total=5]
+12:23:58,432 DEBUG [Enrollment operation] ClientApplet - Fingerprint enrollment complete. Success? true
+12:24:00,718 TRACE [Register-Thread] FutronicReader - after wait() for enroll
+12:24:00,721 TRACE [Register-Thread] FutronicReader - Finishing enrolling user teste templateLength=2667, quality=6
+12:24:00,723 DEBUG [Register-Thread] FutronicReader - Disposing labsec.auth.biometric.Futronic.NewFutronicEnrollment
+12:24:00,723 TRACE [Register-Thread] ClientEntity - userRecord=FutronicUserRecord [key=teste, template=[2667]]
+12:24:04,179 TRACE [Register-Thread] ClientEntity - innerMessage=Message [type=REGISTER, data=622388639,ClientData [cpf=123.456.789-10, ],Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+12:24:04,180 TRACE [Register-Thread] ClientEntity - nA=622388639
+12:24:45,739 TRACE [Register-Thread] ClientEntity - cpf=123.456.789-10
+12:24:49,992 TRACE [Register-Thread] ClientEntity - A=Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE
+12:25:18,160 TRACE [Register-Thread] ClientEntity - new data=ClientData [cpf=123.456.789-10, code=teste, template=[2667]]]
+12:25:19,309 TRACE [Register-Thread] ClientEntity - resultInner=Message [type=REGISTER, data=622388639,ClientData [cpf=123.456.789-10, code=teste, template=[2667]]],byte[length=128, [-117, 111, -55, -127, 83, ...]],]
+12:25:20,577 TRACE [Register-Thread] ClientEntity - resultOuter=Message [type=REGISTER, data=byte[length=128, [16, -88, 62, -89, 46, ...]],byte[length=3432, [3, 111, -124, -20, 100, ...]],Admin::Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+12:25:20,579 DEBUG [Register-Thread] BaseEntity - Client:: is transmitting object over stream: Message [type=REGISTER, data=byte[length=128, [16, -88, 62, -89, 46, ...]],byte[length=3432, [3, 111, -124, -20, 100, ...]],Admin::Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+12:25:20,589 DEBUG [Register-Thread] ClientEntity - End of register operation
+12:27:29,838 ERROR [Client::] BaseEntity - Client:: Comm Exception
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at com.sun.net.ssl.internal.ssl.InputRecord.readFully(InputRecord.java:293)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(InputRecord.java:331)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:798)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:755)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:75)
+	at java.io.InputStream.read(InputStream.java:85)
+	at softplan.prototype.common.BaseEntity.handleServerRequestss(BaseEntity.java:252)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:222)
+	at java.lang.Thread.run(Thread.java:662)
+12:27:29,872 DEBUG [Client::] BaseEntity - Closing connection for Client::
+12:27:29,898 DEBUG [Client::] BaseEntity - Client:: is transmitting object over stream: Bye!
+12:27:29,898 DEBUG [Client::] BaseEntity - Error while closing Client:: socket
+javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.checkEOF(SSLSocketImpl.java:1293)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1305)
+	at com.sun.net.ssl.internal.ssl.AppOutputStream.write(AppOutputStream.java:43)
+	at java.io.OutputStream.write(OutputStream.java:58)
+	at softplan.prototype.common.BaseEntity.writeObject(BaseEntity.java:325)
+	at softplan.prototype.common.BaseEntity.disconnect(BaseEntity.java:197)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:233)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+	at com.sun.net.ssl.internal.ssl.Alerts.getSSLException(Alerts.java:190)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1649)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1612)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1576)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1521)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:86)
+	at java.io.InputStream.read(InputStream.java:85)
+	at softplan.prototype.common.BaseEntity.handleServerRequestss(BaseEntity.java:252)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:222)
+	... 1 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at com.sun.net.ssl.internal.ssl.InputRecord.readFully(InputRecord.java:293)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(InputRecord.java:331)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:798)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:755)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:75)
+	... 4 more
+12:27:29,903 DEBUG [Client::] BaseEntity - End of Client:: Entity thread.
+12:28:56,902 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+12:28:56,954 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+12:28:56,989 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:\Windows\System32\aetpkss1.dll
+12:28:57,510 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+12:28:57,537 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+12:28:57,538 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+12:28:57,540 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+12:28:57,551 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 5
+12:28:57,551 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+12:28:57,552 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+12:28:57,552 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+12:28:57,552 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15668
+12:28:57,578 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+12:28:59,177 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on connect button
+12:28:59,186 DEBUG [Client::] BaseEntity - Beginning Client:: Entity thread.
+12:28:59,187 DEBUG [Client::] BaseEntity - Creating SSL Socket Factory for first-time use only
+12:28:59,325 DEBUG [Client::] BaseEntity - SSL Socket Factory created successfully
+12:28:59,326 INFO [Client::] BaseEntity - Client:: trying to connect to server on host=localhost and port=15668
+12:28:59,830 INFO [Client::] BaseEntity - Client:: connected to server on host=localhost and port=15668
+12:28:59,892 TRACE [Client::] BaseEntity - in=com.sun.net.ssl.internal.ssl.AppInputStream@388993
+12:28:59,892 TRACE [Client::] BaseEntity - out=com.sun.net.ssl.internal.ssl.AppOutputStream@1d04653
+12:28:59,951 DEBUG [Client::] BaseEntity - Client:: is handling server requests
+12:28:59,952 TRACE [Client::] BaseEntity - total bytes read: 1167
+12:28:59,968 DEBUG [Client::] BaseEntity - Client:: received an object: Message [type=REGISTER, data=byte[length=128, [96, 2, 0, -116, 64, ...]],byte[length=672, [-101, 56, -18, -63, -91, ...]],Client::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+12:28:59,969 TRACE [Client::] ClientApplet - messageReceived(): TestCard:jonathangkohler@gmail.com's UFSC ID
+12:28:59,969 DEBUG [Client::] ClientEntity - Begin processing of register message: Message [type=REGISTER, data=byte[length=128, [96, 2, 0, -116, 64, ...]],byte[length=672, [-101, 56, -18, -63, -91, ...]],Client::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+12:28:59,970 TRACE [Client::] ClientEntity - clientAliasReceived=TestCard:jonathangkohler@gmail.com's UFSC ID
+12:28:59,970 DEBUG [Client::] ClientEntity - End processing of register message: Message [type=REGISTER, data=byte[length=128, [96, 2, 0, -116, 64, ...]],byte[length=672, [-101, 56, -18, -63, -91, ...]],]
+12:29:00,915 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on register button
+12:29:00,916 TRACE [AWT-EventQueue-1] ClientEntity - [TestCard:jonathangkohler@gmail.com's UFSC ID]
+12:29:13,616 DEBUG [Register-Thread] ClientEntity - Beginning register operation. With biometrics? true
+12:29:13,617 TRACE [Register-Thread] ClientEntity - code=teste
+12:29:13,618 TRACE [Register-Thread] ClientEntity - selectedClient=TestCard:jonathangkohler@gmail.com's UFSC ID
+12:29:13,618 TRACE [Register-Thread] ClientEntity - withBiometrics=true
+12:29:13,619 TRACE [Register-Thread] FutronicReader - enroll()
+12:29:13,619 DEBUG [Register-Thread] FutronicReader - Starting enrolling user teste
+12:29:13,620 DEBUG [Register-Thread] FutronicReader - Creating enroll object
+12:29:13,663 TRACE [Register-Thread] FutronicReader - before wait() for enroll()
+12:29:14,268 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=1, total=5]
+12:29:21,129 TRACE [Enrollment operation] ClientApplet - updateImage() event
+12:29:21,130 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+12:29:21,289 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=1, total=5]
+12:29:21,650 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=2, total=5]
+12:29:25,046 TRACE [Enrollment operation] ClientApplet - updateImage() event
+12:29:25,047 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+12:29:25,212 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=2, total=5]
+12:29:26,165 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=3, total=5]
+12:29:28,400 TRACE [Enrollment operation] ClientApplet - updateImage() event
+12:29:28,401 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+12:29:28,568 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=3, total=5]
+12:29:29,532 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=4, total=5]
+12:29:31,954 TRACE [Enrollment operation] ClientApplet - updateImage() event
+12:29:31,954 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+12:29:32,119 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=4, total=5]
+12:29:33,449 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=5, total=5]
+12:29:35,255 TRACE [Enrollment operation] ClientApplet - updateImage() event
+12:29:35,256 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+12:29:35,408 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=5, total=5]
+12:29:35,430 DEBUG [Enrollment operation] ClientApplet - Fingerprint enrollment complete. Success? true
+12:29:37,894 TRACE [Register-Thread] FutronicReader - after wait() for enroll
+12:29:37,895 TRACE [Register-Thread] FutronicReader - Finishing enrolling user teste templateLength=3333, quality=3
+12:29:37,897 DEBUG [Register-Thread] FutronicReader - Disposing labsec.auth.biometric.Futronic.NewFutronicEnrollment
+12:29:37,898 TRACE [Register-Thread] ClientEntity - userRecord=FutronicUserRecord [key=teste, template=[3333]]
+12:29:40,849 TRACE [Register-Thread] ClientEntity - innerMessage=Message [type=REGISTER, data=1534737403,ClientData [cpf=123.456.789-10, ],Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+12:29:40,851 TRACE [Register-Thread] ClientEntity - nA=1534737403
+12:29:40,852 TRACE [Register-Thread] ClientEntity - cpf=123.456.789-10
+12:29:40,853 TRACE [Register-Thread] ClientEntity - A=Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE
+12:29:40,854 TRACE [Register-Thread] ClientEntity - new data=ClientData [cpf=123.456.789-10, code=teste, template=[3333]]]
+12:29:41,481 TRACE [Register-Thread] ClientEntity - resultInner=Message [type=REGISTER, data=1534737403,ClientData [cpf=123.456.789-10, code=teste, template=[3333]]],byte[length=128, [25, -10, 92, -40, -35, ...]],]
+12:29:42,947 TRACE [Register-Thread] ClientEntity - resultOuter=Message [type=REGISTER, data=byte[length=128, [-62, -44, -70, -106, 54, ...]],byte[length=4096, [-49, -55, -116, -53, -75, ...]],Admin::Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+12:29:42,948 DEBUG [Register-Thread] BaseEntity - Client:: is transmitting object over stream: Message [type=REGISTER, data=byte[length=128, [-62, -44, -70, -106, 54, ...]],byte[length=4096, [-49, -55, -116, -53, -75, ...]],Admin::Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+12:29:42,955 DEBUG [Register-Thread] ClientEntity - End of register operation
+12:34:37,552 ERROR [Client::] BaseEntity - Client:: Comm Exception
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at com.sun.net.ssl.internal.ssl.InputRecord.readFully(InputRecord.java:293)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(InputRecord.java:331)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:798)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:755)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:75)
+	at java.io.InputStream.read(InputStream.java:85)
+	at softplan.prototype.common.BaseEntity.handleServerRequestss(BaseEntity.java:252)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:222)
+	at java.lang.Thread.run(Thread.java:662)
+12:34:37,558 DEBUG [Client::] BaseEntity - Closing connection for Client::
+12:34:37,558 DEBUG [Client::] BaseEntity - Client:: is transmitting object over stream: Bye!
+12:34:37,558 DEBUG [Client::] BaseEntity - Error while closing Client:: socket
+javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.checkEOF(SSLSocketImpl.java:1293)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1305)
+	at com.sun.net.ssl.internal.ssl.AppOutputStream.write(AppOutputStream.java:43)
+	at java.io.OutputStream.write(OutputStream.java:58)
+	at softplan.prototype.common.BaseEntity.writeObject(BaseEntity.java:325)
+	at softplan.prototype.common.BaseEntity.disconnect(BaseEntity.java:197)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:233)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+	at com.sun.net.ssl.internal.ssl.Alerts.getSSLException(Alerts.java:190)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1649)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1612)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1576)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1521)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:86)
+	at java.io.InputStream.read(InputStream.java:85)
+	at softplan.prototype.common.BaseEntity.handleServerRequestss(BaseEntity.java:252)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:222)
+	... 1 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at com.sun.net.ssl.internal.ssl.InputRecord.readFully(InputRecord.java:293)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(InputRecord.java:331)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:798)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:755)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:75)
+	... 4 more
+12:34:37,559 DEBUG [Client::] BaseEntity - End of Client:: Entity thread.
+12:37:52,108 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+12:37:52,162 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+12:37:52,198 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:\Windows\System32\aetpkss1.dll
+12:37:52,783 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+12:37:52,819 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+12:37:52,820 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+12:37:52,822 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+12:37:52,838 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 5
+12:37:52,838 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+12:37:52,838 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+12:37:52,839 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+12:37:52,839 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15668
+12:37:52,868 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+12:37:54,145 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on connect button
+12:37:54,154 DEBUG [Client::] BaseEntity - Beginning Client:: Entity thread.
+12:37:54,155 DEBUG [Client::] BaseEntity - Creating SSL Socket Factory for first-time use only
+12:37:54,318 DEBUG [Client::] BaseEntity - SSL Socket Factory created successfully
+12:37:54,320 INFO [Client::] BaseEntity - Client:: trying to connect to server on host=localhost and port=15668
+12:37:54,825 INFO [Client::] BaseEntity - Client:: connected to server on host=localhost and port=15668
+12:37:54,879 TRACE [Client::] BaseEntity - in=com.sun.net.ssl.internal.ssl.AppInputStream@1d04653
+12:37:54,880 TRACE [Client::] BaseEntity - out=com.sun.net.ssl.internal.ssl.AppOutputStream@b8f82d
+12:37:54,944 DEBUG [Client::] BaseEntity - Client:: is handling server requests
+12:37:54,946 TRACE [Client::] BaseEntity - total bytes read: 1167
+12:37:54,961 DEBUG [Client::] BaseEntity - Client:: received an object: Message [type=REGISTER, data=byte[length=128, [-105, -101, 50, 13, -92, ...]],byte[length=672, [-90, -65, 52, -87, 106, ...]],Client::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+12:37:54,962 TRACE [Client::] ClientApplet - messageReceived(): TestCard:jonathangkohler@gmail.com's UFSC ID
+12:37:54,963 DEBUG [Client::] ClientEntity - Begin processing of register message: Message [type=REGISTER, data=byte[length=128, [-105, -101, 50, 13, -92, ...]],byte[length=672, [-90, -65, 52, -87, 106, ...]],Client::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+12:37:54,963 TRACE [Client::] ClientEntity - clientAliasReceived=TestCard:jonathangkohler@gmail.com's UFSC ID
+12:37:54,963 DEBUG [Client::] ClientEntity - End processing of register message: Message [type=REGISTER, data=byte[length=128, [-105, -101, 50, 13, -92, ...]],byte[length=672, [-90, -65, 52, -87, 106, ...]],]
+12:38:01,235 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on register button
+12:38:01,236 TRACE [AWT-EventQueue-1] ClientEntity - [TestCard:jonathangkohler@gmail.com's UFSC ID]
+12:38:12,050 DEBUG [Register-Thread] ClientEntity - Beginning register operation. With biometrics? true
+12:38:12,052 TRACE [Register-Thread] ClientEntity - code=teste
+12:38:12,054 TRACE [Register-Thread] ClientEntity - selectedClient=TestCard:jonathangkohler@gmail.com's UFSC ID
+12:38:12,055 TRACE [Register-Thread] ClientEntity - withBiometrics=true
+12:38:12,056 TRACE [Register-Thread] FutronicReader - enroll()
+12:38:12,058 DEBUG [Register-Thread] FutronicReader - Starting enrolling user teste
+12:38:12,059 DEBUG [Register-Thread] FutronicReader - Creating enroll object
+12:38:12,102 TRACE [Register-Thread] FutronicReader - before wait() for enroll()
+12:38:12,660 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=1, total=5]
+12:38:21,939 TRACE [Enrollment operation] ClientApplet - updateImage() event
+12:38:21,941 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+12:38:22,113 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=1, total=5]
+12:38:22,699 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=2, total=5]
+12:38:24,106 TRACE [Enrollment operation] ClientApplet - updateImage() event
+12:38:24,107 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+12:38:24,268 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=2, total=5]
+12:38:25,021 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=3, total=5]
+12:38:26,232 TRACE [Enrollment operation] ClientApplet - updateImage() event
+12:38:26,233 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+12:38:26,361 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=3, total=5]
+12:38:27,493 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=4, total=5]
+12:38:28,501 TRACE [Enrollment operation] ClientApplet - updateImage() event
+12:38:28,502 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+12:38:28,636 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=4, total=5]
+12:38:29,772 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=5, total=5]
+12:38:30,581 TRACE [Enrollment operation] ClientApplet - updateImage() event
+12:38:30,582 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+12:38:30,725 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=5, total=5]
+12:38:30,740 DEBUG [Enrollment operation] ClientApplet - Fingerprint enrollment complete. Success? true
+12:38:33,704 TRACE [Register-Thread] FutronicReader - after wait() for enroll
+12:38:33,706 TRACE [Register-Thread] FutronicReader - Finishing enrolling user teste templateLength=2001, quality=8
+12:38:33,707 DEBUG [Register-Thread] FutronicReader - Disposing labsec.auth.biometric.Futronic.NewFutronicEnrollment
+12:38:33,708 TRACE [Register-Thread] ClientEntity - userRecord=FutronicUserRecord [key=teste, template=[2001]]
+12:38:36,664 TRACE [Register-Thread] ClientEntity - innerMessage=Message [type=REGISTER, data=1735556863,ClientData [cpf=123.456.789-10, ],Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+12:38:36,666 TRACE [Register-Thread] ClientEntity - nA=1735556863
+12:38:36,667 TRACE [Register-Thread] ClientEntity - cpf=123.456.789-10
+12:38:36,668 TRACE [Register-Thread] ClientEntity - A=Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE
+12:38:36,669 TRACE [Register-Thread] ClientEntity - new data=ClientData [cpf=123.456.789-10, code=teste, template=[2001]]]
+12:38:37,298 TRACE [Register-Thread] ClientEntity - resultInner=Message [type=REGISTER, data=1735556863,ClientData [cpf=123.456.789-10, code=teste, template=[2001]]],byte[length=128, [91, -128, -46, -74, -16, ...]],]
+12:38:38,387 TRACE [Register-Thread] ClientEntity - resultOuter=Message [type=REGISTER, data=byte[length=128, [81, -82, 5, -124, 30, ...]],byte[length=2768, [52, 104, 82, -85, 76, ...]],Admin::Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+12:38:38,387 DEBUG [Register-Thread] BaseEntity - Client:: is transmitting object over stream: Message [type=REGISTER, data=byte[length=128, [81, -82, 5, -124, 30, ...]],byte[length=2768, [52, 104, 82, -85, 76, ...]],Admin::Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+12:38:38,399 DEBUG [Register-Thread] ClientEntity - End of register operation
+12:56:25,118 ERROR [Client::] BaseEntity - Client:: Comm Exception
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at com.sun.net.ssl.internal.ssl.InputRecord.readFully(InputRecord.java:293)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(InputRecord.java:331)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:798)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:755)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:75)
+	at java.io.InputStream.read(InputStream.java:85)
+	at softplan.prototype.common.BaseEntity.handleServerRequestss(BaseEntity.java:252)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:222)
+	at java.lang.Thread.run(Thread.java:662)
+12:56:25,130 DEBUG [Client::] BaseEntity - Closing connection for Client::
+12:56:25,131 DEBUG [Client::] BaseEntity - Client:: is transmitting object over stream: Bye!
+12:56:25,131 DEBUG [Client::] BaseEntity - Error while closing Client:: socket
+javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.checkEOF(SSLSocketImpl.java:1293)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1305)
+	at com.sun.net.ssl.internal.ssl.AppOutputStream.write(AppOutputStream.java:43)
+	at java.io.OutputStream.write(OutputStream.java:58)
+	at softplan.prototype.common.BaseEntity.writeObject(BaseEntity.java:325)
+	at softplan.prototype.common.BaseEntity.disconnect(BaseEntity.java:197)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:233)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+	at com.sun.net.ssl.internal.ssl.Alerts.getSSLException(Alerts.java:190)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1649)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1612)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1576)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1521)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:86)
+	at java.io.InputStream.read(InputStream.java:85)
+	at softplan.prototype.common.BaseEntity.handleServerRequestss(BaseEntity.java:252)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:222)
+	... 1 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at com.sun.net.ssl.internal.ssl.InputRecord.readFully(InputRecord.java:293)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(InputRecord.java:331)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:798)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:755)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(AppInputStream.java:75)
+	... 4 more
+12:56:25,140 DEBUG [Client::] BaseEntity - End of Client:: Entity thread.
+13:02:29,484 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+13:02:29,537 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+13:02:29,572 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:\Windows\System32\aetpkss1.dll
+13:02:30,101 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+13:02:30,130 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+13:02:30,130 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+13:02:30,133 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+13:02:30,144 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 1
+13:02:30,144 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+13:02:30,144 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+13:02:30,145 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+13:02:30,145 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15668
+13:02:30,170 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+13:02:31,568 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on connect button
+13:02:31,577 DEBUG [Client::] BaseEntity - Beginning Client:: Entity thread.
+13:02:31,578 DEBUG [Client::] BaseEntity - Creating SSL Socket Factory for first-time use only
+13:02:31,746 DEBUG [Client::] BaseEntity - SSL Socket Factory created successfully
+13:02:31,747 INFO [Client::] BaseEntity - Client:: trying to connect to server on host=localhost and port=15668
+13:02:32,161 INFO [Client::] BaseEntity - Client:: connected to server on host=localhost and port=15668
+13:02:32,226 TRACE [Client::] BaseEntity - in=com.sun.net.ssl.internal.ssl.AppInputStream@d0a5d9
+13:02:32,227 TRACE [Client::] BaseEntity - out=com.sun.net.ssl.internal.ssl.AppOutputStream@388993
+13:02:32,290 DEBUG [Client::] BaseEntity - Client:: is handling server requests
+13:02:32,291 TRACE [Client::] BaseEntity - total bytes read: 1167
+13:02:32,308 DEBUG [Client::] BaseEntity - Client:: received an object: Message [type=REGISTER, data=byte[length=128, [106, 52, 116, 81, 88, ...]],byte[length=672, [-104, 17, -124, -121, 94, ...]],Client::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+13:02:32,309 TRACE [Client::] ClientApplet - messageReceived(): TestCard:jonathangkohler@gmail.com's UFSC ID
+13:02:32,309 DEBUG [Client::] ClientEntity - Begin processing of register message: Message [type=REGISTER, data=byte[length=128, [106, 52, 116, 81, 88, ...]],byte[length=672, [-104, 17, -124, -121, 94, ...]],Client::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+13:02:32,309 TRACE [Client::] ClientEntity - clientAliasReceived=TestCard:jonathangkohler@gmail.com's UFSC ID
+13:02:32,310 DEBUG [Client::] ClientEntity - End processing of register message: Message [type=REGISTER, data=byte[length=128, [106, 52, 116, 81, 88, ...]],byte[length=672, [-104, 17, -124, -121, 94, ...]],]
+13:02:35,650 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on register button
+13:02:35,651 TRACE [AWT-EventQueue-1] ClientEntity - [TestCard:jonathangkohler@gmail.com's UFSC ID]
+13:02:52,890 DEBUG [Register-Thread] ClientEntity - Beginning register operation. With biometrics? true
+13:02:52,891 TRACE [Register-Thread] ClientEntity - code=teste
+13:02:52,892 TRACE [Register-Thread] ClientEntity - selectedClient=TestCard:jonathangkohler@gmail.com's UFSC ID
+13:02:52,892 TRACE [Register-Thread] ClientEntity - withBiometrics=true
+13:02:52,893 TRACE [Register-Thread] FutronicReader - enroll()
+13:02:52,894 DEBUG [Register-Thread] FutronicReader - Starting enrolling user teste
+13:02:52,894 DEBUG [Register-Thread] FutronicReader - Creating enroll object
+13:02:52,951 ERROR [Register-Thread] FutronicReader - While enrolling user=teste
+java.lang.IllegalArgumentException
+	at com.futronic.SDKHelper.FutronicEnrollment.setMaxModels(FutronicEnrollment.java:171)
+	at labsec.auth.biometric.Futronic.FutronicReader.createEnrollmentObject(FutronicReader.java:94)
+	at labsec.auth.biometric.Futronic.FutronicReader.enroll(FutronicReader.java:168)
+	at softplan.prototype.client.ClientEntity$1.run(ClientEntity.java:142)
+	at java.lang.Thread.run(Thread.java:662)
+13:02:52,962 ERROR [Register-Thread] ClientApplet - Exception while executing user command
+labsec.auth.biometric.BiometricEnrollmentException: java.lang.IllegalArgumentException
+	at labsec.auth.biometric.Futronic.FutronicReader.enroll(FutronicReader.java:192)
+	at softplan.prototype.client.ClientEntity$1.run(ClientEntity.java:142)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.IllegalArgumentException
+	at com.futronic.SDKHelper.FutronicEnrollment.setMaxModels(FutronicEnrollment.java:171)
+	at labsec.auth.biometric.Futronic.FutronicReader.createEnrollmentObject(FutronicReader.java:94)
+	at labsec.auth.biometric.Futronic.FutronicReader.enroll(FutronicReader.java:168)
+	... 2 more
+13:03:29,592 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on register button
+13:03:29,593 TRACE [AWT-EventQueue-1] ClientEntity - [TestCard:jonathangkohler@gmail.com's UFSC ID]
+13:04:01,107 DEBUG [Register-Thread] ClientEntity - Beginning register operation. With biometrics? true
+13:04:01,113 TRACE [Register-Thread] ClientEntity - code=123456
+13:04:01,113 TRACE [Register-Thread] ClientEntity - selectedClient=TestCard:jonathangkohler@gmail.com's UFSC ID
+13:04:01,114 TRACE [Register-Thread] ClientEntity - withBiometrics=true
+13:04:01,115 TRACE [Register-Thread] FutronicReader - enroll()
+13:04:01,116 DEBUG [Register-Thread] FutronicReader - Starting enrolling user 123456
+13:04:01,117 DEBUG [Register-Thread] FutronicReader - Creating enroll object
+13:04:01,119 ERROR [Register-Thread] FutronicReader - While enrolling user=123456
+com.futronic.SDKHelper.FutronicException: The current operation has already initialized the API.
+	at com.futronic.SDKHelper.FutronicSdkBase.<init>(FutronicSdkBase.java:248)
+	at com.futronic.SDKHelper.FutronicEnrollment.<init>(FutronicEnrollment.java:31)
+	at labsec.auth.biometric.Futronic.NewFutronicEnrollment.<init>(NewFutronicEnrollment.java:8)
+	at labsec.auth.biometric.Futronic.FutronicReader.createEnrollmentObject(FutronicReader.java:93)
+	at labsec.auth.biometric.Futronic.FutronicReader.enroll(FutronicReader.java:168)
+	at softplan.prototype.client.ClientEntity$1.run(ClientEntity.java:142)
+	at java.lang.Thread.run(Thread.java:662)
+13:04:01,122 ERROR [Register-Thread] ClientApplet - Exception while executing user command
+labsec.auth.biometric.BiometricEnrollmentException: com.futronic.SDKHelper.FutronicException: The current operation has already initialized the API.
+	at labsec.auth.biometric.Futronic.FutronicReader.enroll(FutronicReader.java:192)
+	at softplan.prototype.client.ClientEntity$1.run(ClientEntity.java:142)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: com.futronic.SDKHelper.FutronicException: The current operation has already initialized the API.
+	at com.futronic.SDKHelper.FutronicSdkBase.<init>(FutronicSdkBase.java:248)
+	at com.futronic.SDKHelper.FutronicEnrollment.<init>(FutronicEnrollment.java:31)
+	at labsec.auth.biometric.Futronic.NewFutronicEnrollment.<init>(NewFutronicEnrollment.java:8)
+	at labsec.auth.biometric.Futronic.FutronicReader.createEnrollmentObject(FutronicReader.java:93)
+	at labsec.auth.biometric.Futronic.FutronicReader.enroll(FutronicReader.java:168)
+	... 2 more
+13:10:14,403 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+13:10:14,494 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+13:10:14,538 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:\Windows\System32\aetpkss1.dll
+13:10:16,264 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+13:10:16,323 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+13:10:16,324 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+13:10:16,332 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+13:10:16,357 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 2
+13:10:16,358 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+13:10:16,358 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+13:10:16,358 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+13:10:16,359 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15668
+13:10:16,431 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+13:10:22,871 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+13:10:22,936 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+13:10:22,989 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:\Windows\System32\aetpkss1.dll
+13:10:23,573 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+13:10:23,600 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+13:10:23,601 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+13:10:23,603 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+13:10:23,615 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 2
+13:10:23,616 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+13:10:23,616 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+13:10:23,616 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+13:10:23,616 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15668
+13:10:23,642 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+13:10:24,644 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on connect button
+13:10:24,653 DEBUG [Client::] BaseEntity - Beginning Client:: Entity thread.
+13:10:24,654 DEBUG [Client::] BaseEntity - Creating SSL Socket Factory for first-time use only
+13:10:24,789 DEBUG [Client::] BaseEntity - SSL Socket Factory created successfully
+13:10:24,789 INFO [Client::] BaseEntity - Client:: trying to connect to server on host=localhost and port=15668
+13:10:26,263 ERROR [Client::] BaseEntity - Client:: Comm Exception
+java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:559)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:360)
+	at com.sun.net.ssl.internal.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:71)
+	at softplan.prototype.common.BaseEntity.connect(BaseEntity.java:301)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:221)
+	at java.lang.Thread.run(Thread.java:662)
+13:10:26,280 DEBUG [Client::] BaseEntity - Closing connection for Client::
+13:10:26,280 DEBUG [Client::] BaseEntity - End of Client:: Entity thread.
+13:10:26,598 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on register button
+13:10:26,599 TRACE [AWT-EventQueue-1] ClientEntity - []
+13:17:42,629 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on connect button
+13:17:42,643 DEBUG [Client::] BaseEntity - Beginning Client:: Entity thread.
+13:17:42,644 DEBUG [Client::] BaseEntity - Creating SSL Socket Factory for first-time use only
+13:17:42,798 DEBUG [Client::] BaseEntity - SSL Socket Factory created successfully
+13:17:42,798 INFO [Client::] BaseEntity - Client:: trying to connect to server on host=localhost and port=15668
+13:17:43,314 INFO [Client::] BaseEntity - Client:: connected to server on host=localhost and port=15668
+13:17:43,372 TRACE [Client::] BaseEntity - in=com.sun.net.ssl.internal.ssl.AppInputStream@134c0a6
+13:17:43,372 TRACE [Client::] BaseEntity - out=com.sun.net.ssl.internal.ssl.AppOutputStream@53f0a8
+13:17:43,432 DEBUG [Client::] BaseEntity - Client:: is handling server requests
+13:17:43,434 TRACE [Client::] BaseEntity - total bytes read: 1167
+13:17:43,456 DEBUG [Client::] BaseEntity - Client:: received an object: Message [type=REGISTER, data=byte[length=128, [-128, -93, -75, -121, -20, ...]],byte[length=672, [75, 69, 69, 122, 57, ...]],Client::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+13:17:43,457 TRACE [Client::] ClientApplet - messageReceived(): TestCard:jonathangkohler@gmail.com's UFSC ID
+13:17:43,458 DEBUG [Client::] ClientEntity - Begin processing of register message: Message [type=REGISTER, data=byte[length=128, [-128, -93, -75, -121, -20, ...]],byte[length=672, [75, 69, 69, 122, 57, ...]],Client::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+13:17:43,458 TRACE [Client::] ClientEntity - clientAliasReceived=TestCard:jonathangkohler@gmail.com's UFSC ID
+13:17:43,458 DEBUG [Client::] ClientEntity - End processing of register message: Message [type=REGISTER, data=byte[length=128, [-128, -93, -75, -121, -20, ...]],byte[length=672, [75, 69, 69, 122, 57, ...]],]
+13:17:44,538 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on register button
+13:17:44,540 TRACE [AWT-EventQueue-1] ClientEntity - [TestCard:jonathangkohler@gmail.com's UFSC ID]
+13:17:58,710 DEBUG [Register-Thread] ClientEntity - Beginning register operation. With biometrics? true
+13:17:58,717 TRACE [Register-Thread] ClientEntity - code=123456
+13:17:58,721 TRACE [Register-Thread] ClientEntity - selectedClient=TestCard:jonathangkohler@gmail.com's UFSC ID
+13:17:58,723 TRACE [Register-Thread] ClientEntity - withBiometrics=true
+13:17:58,726 TRACE [Register-Thread] FutronicReader - enroll()
+13:17:58,727 DEBUG [Register-Thread] FutronicReader - Starting enrolling user 123456
+13:17:58,728 DEBUG [Register-Thread] FutronicReader - Creating enroll object
+13:17:58,764 ERROR [Register-Thread] FutronicReader - While enrolling user=123456
+java.lang.IllegalArgumentException
+	at com.futronic.SDKHelper.FutronicEnrollment.setMaxModels(FutronicEnrollment.java:171)
+	at labsec.auth.biometric.Futronic.FutronicReader.createEnrollmentObject(FutronicReader.java:94)
+	at labsec.auth.biometric.Futronic.FutronicReader.enroll(FutronicReader.java:168)
+	at softplan.prototype.client.ClientEntity$1.run(ClientEntity.java:142)
+	at java.lang.Thread.run(Thread.java:662)
+13:17:58,771 ERROR [Register-Thread] ClientApplet - Exception while executing user command
+labsec.auth.biometric.BiometricEnrollmentException: java.lang.IllegalArgumentException
+	at labsec.auth.biometric.Futronic.FutronicReader.enroll(FutronicReader.java:192)
+	at softplan.prototype.client.ClientEntity$1.run(ClientEntity.java:142)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.IllegalArgumentException
+	at com.futronic.SDKHelper.FutronicEnrollment.setMaxModels(FutronicEnrollment.java:171)
+	at labsec.auth.biometric.Futronic.FutronicReader.createEnrollmentObject(FutronicReader.java:94)
+	at labsec.auth.biometric.Futronic.FutronicReader.enroll(FutronicReader.java:168)
+	... 2 more
+13:20:24,155 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on disconnect button
+13:20:24,156 DEBUG [AWT-EventQueue-1] BaseEntity - Closing connection for Client::
+13:20:24,156 DEBUG [AWT-EventQueue-1] BaseEntity - Client:: is transmitting object over stream: Bye!
+13:20:24,181 DEBUG [Client::] BaseEntity - Closing connection for Client::
+13:20:24,181 DEBUG [Client::] BaseEntity - End of Client:: Entity thread.
+13:20:26,774 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - stop()
+13:20:26,778 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - destroy()
+13:20:26,780 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] BaseEntity - Client::'s SSLSocket is connected? false
+13:20:26,781 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] FutronicReader - uninitialize()
+13:20:41,036 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+13:20:41,129 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+13:20:41,174 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:\Windows\System32\aetpkss1.dll
+13:20:41,788 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+13:20:41,837 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+13:20:41,838 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+13:20:41,843 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+13:20:41,863 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 5
+13:20:41,864 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+13:20:41,864 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+13:20:41,864 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+13:20:41,865 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15668
+13:20:41,927 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+13:20:45,640 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - stop()
+13:20:45,645 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - destroy()
+13:20:45,652 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] BaseEntity - Client::'s SSLSocket is connected? false
+13:20:45,653 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] FutronicReader - uninitialize()
+13:20:50,466 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+13:20:50,518 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+13:20:50,553 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:\Windows\System32\aetpkss1.dll
+13:20:51,124 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+13:20:51,165 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+13:20:51,166 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+13:20:51,168 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+13:20:51,184 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 5
+13:20:51,185 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+13:20:51,185 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+13:20:51,185 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+13:20:51,185 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15668
+13:20:51,215 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+13:20:53,224 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on connect button
+13:20:53,232 DEBUG [Client::] BaseEntity - Beginning Client:: Entity thread.
+13:20:53,233 DEBUG [Client::] BaseEntity - Creating SSL Socket Factory for first-time use only
+13:20:53,413 DEBUG [Client::] BaseEntity - SSL Socket Factory created successfully
+13:20:53,414 INFO [Client::] BaseEntity - Client:: trying to connect to server on host=localhost and port=15668
+13:20:53,906 INFO [Client::] BaseEntity - Client:: connected to server on host=localhost and port=15668
+13:20:53,949 TRACE [Client::] BaseEntity - in=com.sun.net.ssl.internal.ssl.AppInputStream@388993
+13:20:53,949 TRACE [Client::] BaseEntity - out=com.sun.net.ssl.internal.ssl.AppOutputStream@1d04653
+13:20:54,005 DEBUG [Client::] BaseEntity - Client:: is handling server requests
+13:20:54,938 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on register button
+13:20:54,939 TRACE [AWT-EventQueue-1] ClientEntity - []
+13:21:01,181 TRACE [Client::] BaseEntity - total bytes read: 1167
+13:21:01,240 DEBUG [Client::] BaseEntity - Client:: received an object: Message [type=REGISTER, data=byte[length=128, [36, 104, -57, -3, 31, ...]],byte[length=672, [106, 122, 58, 74, 26, ...]],Client::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+13:21:01,243 TRACE [Client::] ClientApplet - messageReceived(): TestCard:jonathangkohler@gmail.com's UFSC ID
+13:21:01,243 DEBUG [Client::] ClientEntity - Begin processing of register message: Message [type=REGISTER, data=byte[length=128, [36, 104, -57, -3, 31, ...]],byte[length=672, [106, 122, 58, 74, 26, ...]],Client::TestCard:jonathangkohler@gmail.com's UFSC ID,]
+13:21:01,245 TRACE [Client::] ClientEntity - clientAliasReceived=TestCard:jonathangkohler@gmail.com's UFSC ID
+13:21:01,246 DEBUG [Client::] ClientEntity - End processing of register message: Message [type=REGISTER, data=byte[length=128, [36, 104, -57, -3, 31, ...]],byte[length=672, [106, 122, 58, 74, 26, ...]],]
+13:21:05,305 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on register button
+13:21:05,306 TRACE [AWT-EventQueue-1] ClientEntity - [TestCard:jonathangkohler@gmail.com's UFSC ID]
+13:21:16,720 DEBUG [Register-Thread] ClientEntity - Beginning register operation. With biometrics? true
+13:21:16,721 TRACE [Register-Thread] ClientEntity - code=123456
+13:21:16,722 TRACE [Register-Thread] ClientEntity - selectedClient=TestCard:jonathangkohler@gmail.com's UFSC ID
+13:21:16,722 TRACE [Register-Thread] ClientEntity - withBiometrics=true
+13:21:16,723 TRACE [Register-Thread] FutronicReader - enroll()
+13:21:16,723 DEBUG [Register-Thread] FutronicReader - Starting enrolling user 123456
+13:21:16,724 DEBUG [Register-Thread] FutronicReader - Creating enroll object
+13:21:16,763 TRACE [Register-Thread] FutronicReader - before wait() for enroll()
+13:21:17,437 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=1, total=5]
+13:21:21,903 TRACE [Enrollment operation] ClientApplet - updateImage() event
+13:21:21,904 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+13:21:22,016 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=1, total=5]
+13:21:22,386 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=2, total=5]
+13:21:25,205 TRACE [Enrollment operation] ClientApplet - updateImage() event
+13:21:25,206 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+13:21:25,367 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=2, total=5]
+13:21:26,512 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=3, total=5]
+13:21:27,717 TRACE [Enrollment operation] ClientApplet - updateImage() event
+13:21:27,717 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+13:21:27,805 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=3, total=5]
+13:21:29,121 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=4, total=5]
+13:21:30,126 TRACE [Enrollment operation] ClientApplet - updateImage() event
+13:21:30,127 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+13:21:30,287 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=4, total=5]
+13:21:31,206 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=5, total=5]
+13:21:33,022 TRACE [Enrollment operation] ClientApplet - updateImage() event
+13:21:33,023 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+13:21:33,171 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=5, total=5]
+13:21:33,182 DEBUG [Enrollment operation] ClientApplet - Fingerprint enrollment complete. Success? true
+13:21:35,396 TRACE [Register-Thread] FutronicReader - after wait() for enroll
+13:21:35,397 TRACE [Register-Thread] FutronicReader - Finishing enrolling user 123456 templateLength=2667, quality=8
+13:21:35,398 DEBUG [Register-Thread] FutronicReader - Disposing labsec.auth.biometric.Futronic.NewFutronicEnrollment
+13:21:35,399 TRACE [Register-Thread] ClientEntity - userRecord=FutronicUserRecord [key=123456, template=[2667]]
+13:21:38,299 TRACE [Register-Thread] ClientEntity - innerMessage=Message [type=REGISTER, data=1287466956,ClientData [cpf=123.456.789-10, ],Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+13:21:38,300 TRACE [Register-Thread] ClientEntity - nA=1287466956
+13:21:38,300 TRACE [Register-Thread] ClientEntity - cpf=123.456.789-10
+13:21:38,301 TRACE [Register-Thread] ClientEntity - A=Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE
+13:21:38,301 TRACE [Register-Thread] ClientEntity - new data=ClientData [cpf=123.456.789-10, code=123456, template=[2667]]]
+13:21:38,941 TRACE [Register-Thread] ClientEntity - resultInner=Message [type=REGISTER, data=1287466956,ClientData [cpf=123.456.789-10, code=123456, template=[2667]]],byte[length=128, [-94, -60, 35, -2, -8, ...]],]
+13:21:40,256 TRACE [Register-Thread] ClientEntity - resultOuter=Message [type=REGISTER, data=byte[length=128, [40, 90, -88, 10, 115, ...]],byte[length=3432, [101, -100, -3, 4, -4, ...]],Admin::Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+13:21:40,256 DEBUG [Register-Thread] BaseEntity - Client:: is transmitting object over stream: Message [type=REGISTER, data=byte[length=128, [40, 90, -88, 10, 115, ...]],byte[length=3432, [101, -100, -3, 4, -4, ...]],Admin::Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+13:21:40,260 DEBUG [Register-Thread] ClientEntity - End of register operation
+13:26:21,507 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on authentication button
+13:26:32,432 INFO [AWT-EventQueue-1] BaseEntity - Client:: is trying to obtain smartcard's data
+13:26:32,433 INFO [AWT-EventQueue-1] BaseEntity - Client:: obtained smartcard's data successfully
+13:30:14,475 DEBUG [Auth-Thread] ClientEntity - Beginning authentication
+13:30:14,476 DEBUG [Auth-Thread] BaseEntity - Client:: is transmitting object over stream: AuthRequestWithBiometricsCódigos SICRANO DA SILVA TESTEs AC TSE final TESTE
+13:30:14,480 TRACE [Auth-Thread] ClientEntity - before auth wait()
+13:30:14,513 TRACE [Client::] BaseEntity - total bytes read: 275
+13:30:14,515 DEBUG [Client::] BaseEntity - Client:: received an object: Message [type=AUTH, data=]
+13:30:14,518 ERROR [Client::] BaseEntity - Exception while processing received Message
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.get(ArrayList.java:324)
+	at softplan.prototype.common.Message.getLast(Message.java:37)
+	at softplan.prototype.common.BaseEntity.handleServerRequestss(BaseEntity.java:262)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:222)
+	at java.lang.Thread.run(Thread.java:662)
+13:30:14,527 ERROR [Client::] ClientApplet - Exception while executing user command
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.get(ArrayList.java:324)
+	at softplan.prototype.common.Message.getLast(Message.java:37)
+	at softplan.prototype.common.BaseEntity.handleServerRequestss(BaseEntity.java:262)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:222)
+	at java.lang.Thread.run(Thread.java:662)
+21:48:34,803 TRACE [Thread-3] Configuration - java.library.path = C:\Dev\java_libs\Futronic
+21:48:35,109 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - init()
+21:48:35,198 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = pkcs11LibraryFile / value = C:\Windows\System32\aetpkss1.dll
+21:48:35,828 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientEntity - initBiometrics()
+21:48:35,876 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - initialize()
+21:48:35,878 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Checking for loadLibrary permission
+21:48:35,883 DEBUG [thread applet-softplan.prototype.client.ClientApplet.class] AbstractFingerprintReader - Path to reader's library file=C:\Users\Eduardo\workspace\MultiFactorAuthProtocol\dlls\ftrJSDK.dll
+21:48:36,161 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = numberFingerModels / value = 5
+21:48:36,162 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerHostname / value = localhost
+21:48:36,163 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = adminServerPort / value = 15666
+21:48:36,164 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerHostname / value = localhost
+21:48:36,164 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] Configuration - key = clientServerPort / value = 15668
+21:48:36,269 TRACE [thread applet-softplan.prototype.client.ClientApplet.class] ClientApplet - start()
+21:48:39,561 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on connect button
+21:48:39,571 DEBUG [Client::] BaseEntity - Beginning Client:: Entity thread.
+21:48:39,572 DEBUG [Client::] BaseEntity - Creating SSL Socket Factory for first-time use only
+21:48:39,706 DEBUG [Client::] BaseEntity - SSL Socket Factory created successfully
+21:48:39,706 INFO [Client::] BaseEntity - Client:: trying to connect to server on host=localhost and port=15668
+21:48:40,238 INFO [Client::] BaseEntity - Client:: connected to server on host=localhost and port=15668
+21:48:40,310 TRACE [Client::] BaseEntity - in=com.sun.net.ssl.internal.ssl.AppInputStream@1786b98
+21:48:40,310 TRACE [Client::] BaseEntity - out=com.sun.net.ssl.internal.ssl.AppOutputStream@dff0ea
+21:48:40,366 DEBUG [Client::] BaseEntity - Client:: is handling server requests
+21:48:40,367 TRACE [Client::] BaseEntity - total bytes read: 1175
+21:48:40,388 DEBUG [Client::] BaseEntity - Client:: received an object: Message [type=REGISTER, data=byte[length=128, [-74, -53, 60, 42, 18, ...]],byte[length=672, [106, 26, 81, 109, -17, ...]],Client::Códigos FULANO DA SILVA TESTEs AC TSE final TESTE,]
+21:48:40,389 TRACE [Client::] ClientApplet - messageReceived(): Códigos FULANO DA SILVA TESTEs AC TSE final TESTE
+21:48:40,390 DEBUG [Client::] ClientEntity - Begin processing of register message: Message [type=REGISTER, data=byte[length=128, [-74, -53, 60, 42, 18, ...]],byte[length=672, [106, 26, 81, 109, -17, ...]],Client::Códigos FULANO DA SILVA TESTEs AC TSE final TESTE,]
+21:48:40,390 TRACE [Client::] ClientEntity - clientAliasReceived=Códigos FULANO DA SILVA TESTEs AC TSE final TESTE
+21:48:40,390 DEBUG [Client::] ClientEntity - End processing of register message: Message [type=REGISTER, data=byte[length=128, [-74, -53, 60, 42, 18, ...]],byte[length=672, [106, 26, 81, 109, -17, ...]],]
+21:48:42,742 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on register button
+21:48:42,743 TRACE [AWT-EventQueue-1] ClientEntity - [Códigos FULANO DA SILVA TESTEs AC TSE final TESTE]
+21:48:58,599 DEBUG [Register-Thread] ClientEntity - Beginning register operation. With biometrics? true
+21:48:58,600 TRACE [Register-Thread] ClientEntity - code=code
+21:48:58,603 TRACE [Register-Thread] ClientEntity - selectedClient=Códigos FULANO DA SILVA TESTEs AC TSE final TESTE
+21:48:58,603 TRACE [Register-Thread] ClientEntity - withBiometrics=true
+21:48:58,604 TRACE [Register-Thread] FutronicReader - enroll()
+21:48:58,605 DEBUG [Register-Thread] FutronicReader - Starting enrolling user code
+21:48:58,605 DEBUG [Register-Thread] FutronicReader - Creating enroll object
+21:48:58,880 TRACE [Register-Thread] FutronicReader - before wait() for enroll()
+21:48:59,492 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=1, total=5]
+21:49:04,401 TRACE [Enrollment operation] ClientApplet - updateImage() event
+21:49:04,402 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+21:49:04,542 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=1, total=5]
+21:49:04,911 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=2, total=5]
+21:49:07,130 TRACE [Enrollment operation] ClientApplet - updateImage() event
+21:49:07,132 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+21:49:07,293 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=2, total=5]
+21:49:07,854 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=3, total=5]
+21:49:09,754 TRACE [Enrollment operation] ClientApplet - updateImage() event
+21:49:09,756 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+21:49:09,906 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=3, total=5]
+21:49:10,853 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=4, total=5]
+21:49:12,265 TRACE [Enrollment operation] ClientApplet - updateImage() event
+21:49:12,266 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+21:49:12,429 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=4, total=5]
+21:49:13,205 TRACE [Enrollment operation] ClientApplet - putFingerOn() event=ProgressEvent [count=5, total=5]
+21:49:14,818 TRACE [Enrollment operation] ClientApplet - updateImage() event
+21:49:14,819 TRACE [Enrollment operation] ClientApplet - bitmap image size= 320x480
+21:49:14,990 TRACE [Enrollment operation] ClientApplet - takeFingerOff() event=ProgressEvent [count=5, total=5]
+21:49:15,004 DEBUG [Enrollment operation] ClientApplet - Fingerprint enrollment complete. Success? true
+21:49:17,857 TRACE [Register-Thread] FutronicReader - after wait() for enroll
+21:49:17,858 TRACE [Register-Thread] FutronicReader - Finishing enrolling user code templateLength=2001, quality=9
+21:49:17,868 DEBUG [Register-Thread] FutronicReader - Disposing labsec.auth.biometric.Futronic.NewFutronicEnrollment
+21:49:17,869 TRACE [Register-Thread] ClientEntity - userRecord=FutronicUserRecord [key=code, template=[2001]]
+21:49:21,651 TRACE [Register-Thread] ClientEntity - innerMessage=Message [type=REGISTER, data=1581668530,ClientData [cpf=123.456.789-10, ],Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+21:50:02,424 TRACE [Register-Thread] ClientEntity - nA=1581668530
+21:50:14,822 TRACE [Register-Thread] ClientEntity - cpf=123.456.789-10
+21:50:18,614 TRACE [Register-Thread] ClientEntity - A=Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE
+21:50:26,094 TRACE [Register-Thread] ClientEntity - new data=ClientData [cpf=123.456.789-10, code=code, template=[2001]]]
+21:50:33,350 TRACE [Register-Thread] ClientEntity - resultInner=Message [type=REGISTER, data=1581668530,ClientData [cpf=123.456.789-10, code=code, template=[2001]]],byte[length=128, [-105, -62, 41, 53, 47, ...]],]
+21:50:45,824 TRACE [Register-Thread] ClientEntity - resultOuter=Message [type=REGISTER, data=byte[length=128, [89, 8, -7, 16, 15, ...]],byte[length=2768, [23, -65, 87, 122, 37, ...]],Admin::Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+21:50:48,115 DEBUG [Register-Thread] BaseEntity - Client:: is transmitting object over stream: Message [type=REGISTER, data=byte[length=128, [89, 8, -7, 16, 15, ...]],byte[length=2768, [23, -65, 87, 122, 37, ...]],Admin::Códigos SICRANO DA SILVA TESTEs AC TSE final TESTE,]
+21:50:56,091 DEBUG [Register-Thread] ClientEntity - End of register operation
+21:52:26,996 TRACE [AWT-EventQueue-1] ClientApplet - Applet User clicked on authentication button
+21:52:33,509 INFO [AWT-EventQueue-1] BaseEntity - Client:: is trying to obtain smartcard's data
+21:52:33,511 INFO [AWT-EventQueue-1] BaseEntity - Client:: obtained smartcard's data successfully
+21:54:45,472 DEBUG [Auth-Thread] ClientEntity - Beginning authentication
+21:55:01,567 TRACE [Auth-Thread] ClientEntity - authRequestSent = AuthRequestWithBiometricsCódigos FULANO DA SILVA TESTEs AC TSE final TESTE
+21:55:02,206 DEBUG [Auth-Thread] BaseEntity - Client:: is transmitting object over stream: AuthRequestWithBiometricsCódigos FULANO DA SILVA TESTEs AC TSE final TESTE
+21:55:03,617 TRACE [Client::] BaseEntity - total bytes read: 275
+21:55:03,618 DEBUG [Client::] BaseEntity - Client:: received an object: Message [type=AUTH, data=]
+21:55:03,623 ERROR [Client::] BaseEntity - Exception while processing received Message
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.get(ArrayList.java:324)
+	at softplan.prototype.common.Message.getLast(Message.java:37)
+	at softplan.prototype.common.BaseEntity.handleServerRequestss(BaseEntity.java:273)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:233)
+	at java.lang.Thread.run(Thread.java:662)
+21:55:03,633 ERROR [Client::] ClientApplet - Exception while executing user command
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.get(ArrayList.java:324)
+	at softplan.prototype.common.Message.getLast(Message.java:37)
+	at softplan.prototype.common.BaseEntity.handleServerRequestss(BaseEntity.java:273)
+	at softplan.prototype.common.BaseEntity$1.run(BaseEntity.java:233)
+	at java.lang.Thread.run(Thread.java:662)
+21:55:06,135 TRACE [Auth-Thread] ClientEntity - before authSynch wait()
