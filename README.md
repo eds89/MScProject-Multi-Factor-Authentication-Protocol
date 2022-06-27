@@ -3,7 +3,7 @@ Proof-of-concept code of the Multi-Factor Authentication Protocol developed in m
 
 Source code extracted from binaries. Code provided for demonstrative/informative purposes only. 
 
-Tech stack: Java 5, PKCS#11, Smartcards, Fingerprint authentication
+Tech stack: Java 5, PKCS#11, Smartcards, Fingerprint scanners
 
 **For more information, see:**
 
